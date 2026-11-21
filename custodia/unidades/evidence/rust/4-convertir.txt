@@ -1,0 +1,15 @@
+De texto a entero (al recibir un monto)
+  "1.5" ETH                  → 1500000000000000000 wei
+  "0.000000000000000001" ETH → 1 wei
+  "2.5" gwei                 → 2500000000 wei
+  "2.5" con 9 decimales      → 2500000000 wei
+
+De entero a texto (al mostrar un monto)
+  1234567890123456789 wei → 1.234567890123456789 ETH
+  1 wei                   → 0.000000000000000001 ETH
+  2500000000 wei          → 0.0000000025 ETH
+  2500000000 wei          → 2.5 gwei
+
+Ida y vuelta: 1234567890123456789 → "1.234567890123456789" → 1234567890123456789 (igual)
+
+✔ Convertir es mover el punto decimal en un texto. No hay coma flotante en el camino.

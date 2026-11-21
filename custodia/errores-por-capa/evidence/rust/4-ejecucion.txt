@@ -1,0 +1,13 @@
+Envío:  retirar(500) a la Caja, que tiene un tope de 100.
+Hash:   sí, de 32 bytes. El nodo admitió la transacción.
+Recibo: status 0 · gas usado 43864
+Costo:  el saldo de quien envía bajó: pagó comisión
+Estado: retirado = 0. Lo que el contrato anotó se deshizo.
+
+La misma llamada, simulada con eth_call:
+  code:    3
+  message: execution reverted: Caja: el tope es 100
+  data:    0x08c379a0 y 96 bytes más
+  motivo:  Error("Caja: el tope es 100")
+
+✔ Capa de ejecución: hubo hash, recibo y comisión. El status 0 dice que falló; el motivo lo da la simulación.

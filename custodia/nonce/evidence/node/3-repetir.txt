@@ -1,0 +1,13 @@
+Antes: nonce de la cuenta 1 · saldo del destino 10001 ETH
+
+Firmo una sola vez: 1 ETH al destino, con el nonce 1.
+Son 119 bytes. Su hash: 0xdfdd11554a3ea109ca9677a53af1b3c181502a7c175666b376893a895f33e5b3
+
+Primer envío:                 aceptada
+  nonce de la cuenta 2 · saldo del destino 10002 ETH
+Segundo envío, mismos bytes:  rechazada · error -32003 «nonce too low»
+  nonce de la cuenta 2 · saldo del destino 10002 ETH
+Otra distinta, mismo nonce 1: rechazada · error -32003 «nonce too low»
+  nonce de la cuenta 2 · saldo del destino 10002 ETH
+
+✔ Cada nonce se usa una sola vez: la cadena rechazó la repetición y otra transacción con ese número.

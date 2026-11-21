@@ -1,0 +1,14 @@
+
+== Generación distribuida de la llave (2 de 3) ==
+Mensajes intercambiados:    18, en 4 rondas
+Parte de Carla:             241 KiB, guardada en .estado/mpc.json
+Parte de Diego:             242 KiB, guardada en .estado/mpc.json
+Parte de Elena:             242 KiB, guardada en .estado/mpc.json
+¿Misma llave pública?:      sí
+Dirección:                  0x06e461598f8670bFd13ffDCb17a55487E1D5fb3e
+Saldo:                      5 ETH
+¿Hay código ahí?:           no: es una cuenta común
+   El protocolo nunca arma la llave privada completa, ni siquiera al crearla.
+   Aquí las tres partes corren en tu máquina; en la vida real, cada una en un equipo distinto.
+
+✔ Una dirección normal, controlada por tres partes.

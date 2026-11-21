@@ -1,0 +1,9 @@
+Antes:   la cuenta de prueba 1 tiene nonce 0
+Contrato creado en 0x8464135c8F25Da09e49BC8782676a84730C318bC
+Después: la cuenta de prueba 1 tiene nonce 1
+
+Saldo:  1000000000000000000 wei = 1 ETH
+Nonce:  1
+Código: 0x6080604052600080fdfe… (63 bytes)
+
+✔ Un contrato tiene saldo y nonce como cualquier cuenta. Lo que lo distingue es el código.

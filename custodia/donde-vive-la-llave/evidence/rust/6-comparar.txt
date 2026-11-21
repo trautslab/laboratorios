@@ -1,0 +1,20 @@
+Las cuatro, lado a lado. Todas firman el mismo hash: 0x7a37b0fbaf6d654e4c99182ebe032494cc1231cb15ec3c2b382f9335d088e77b
+
+1 · archivo en claro
+  ¿El programa puede imprimir la llave?   sí
+  ¿Lo guardado contiene la llave en claro? sí
+  Firma: 0xc56c1da07c5745b5fd3ec859cd3a7638c34604dae3953607ba84fc04a2212a410a0de5cb4fff63250fcf4c68f77579bdd12e3db273722eceba6027344f137d2a1c
+2 · variable de entorno
+  ¿El programa puede imprimir la llave?   sí
+  ¿Lo guardado contiene la llave en claro? sí
+  Firma: 0xc56c1da07c5745b5fd3ec859cd3a7638c34604dae3953607ba84fc04a2212a410a0de5cb4fff63250fcf4c68f77579bdd12e3db273722eceba6027344f137d2a1c
+3 · almacén cifrado
+  ¿El programa puede imprimir la llave?   sí
+  ¿Lo guardado contiene la llave en claro? no
+  Firma: 0xc56c1da07c5745b5fd3ec859cd3a7638c34604dae3953607ba84fc04a2212a410a0de5cb4fff63250fcf4c68f77579bdd12e3db273722eceba6027344f137d2a1c
+4 · KMS
+  ¿El programa puede imprimir la llave?   no
+  ¿Lo guardado contiene la llave en claro? no
+≈ Firma (DER, otra llave): 0x3046022100ae38eb8deeefb7d5b88fa988adde7438240b03d6d640b2df5f62386ab2cb0b2c022100c1b052d8f9497dcaf842131688e1df2fa0740608b6b1235e267ca53634a0f4ae
+
+✔ En tres lugares el programa termina con la llave en la mano. En el KMS solo puede pedir firmas.

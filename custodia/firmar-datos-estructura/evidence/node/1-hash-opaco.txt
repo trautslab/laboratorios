@@ -1,0 +1,20 @@
+Aprobación A, la que la persona cree aprobar:
+  retiro:  RET-0042
+  destino: 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+  monto:   25000000000000000000
+  vence:   1798761600
+  En la pantalla de quien firma: 0x749ef8e54810d63781fdfff9b78d8e91dbb3a01f07f1904c74e8080e9768d3e1
+
+Aprobación B, con otro destino y diez veces el monto:
+  retiro:  RET-0042
+  destino: 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+  monto:   250000000000000000000
+  vence:   1798761600
+  En la pantalla de quien firma: 0x58052a5ff49a4e4c320b0c58ee1a271eb123d4a2fb3ffe0b17eeeb87c6ec047f
+
+La persona firma el hash que le llegó, el de B:
+  firma (65 bytes): 0x57900a5f73384218ff2697c08f44415d6383b7ebd5e096eda33ad265f44bcefa61db5188db2b92961f4e561477059545e8389ff048c6ab5f6a927d223608ff8a1c
+  dirección recuperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  dirección de la llave: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+✔ La firma vale para B. En la pantalla hubo 32 bytes: nada decía a quién ni cuánto.

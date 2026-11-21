@@ -1,0 +1,21 @@
+Aprobó:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Firma:   0x2080e5323a8eda80ac8415e53fe8834cfa86de60b7ca3b639745d42862f8a5045170beca2830c7949edec4a3d7ae2d0bdfcce20000c656d3e48795dbf17ed8e01c
+
+El mensaje que se firmó
+  digest:     0x08fb8b18763dcbae1fac51e4cfd73baf3d97b99192b12e21a9c78b5f552fa265
+  recuperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  Es quien aprobó.
+Monto: 250 ETH en lugar de 25
+  digest:     0x47a0a2c7d47211d728257a0961c9279cc671d309b3ffd72930f44ce9f2d485ef
+  recuperada: 0xB2608a487E63C372bdC3b229107369DF327f46Dd
+  No es quien aprobó: la firma no cubre este mensaje.
+Destino: 0x15d3…6A65
+  digest:     0x6664dde3124f5163a4423ec019fee3c4a3ebdedc593235c95a9bc8cbe04910bb
+  recuperada: 0x5F8cf15c1569ea9d3C27B44Dd5512018430F3fc6
+  No es quien aprobó: la firma no cubre este mensaje.
+Mismos valores, el campo «destino» se llama «beneficiario»
+  digest:     0x00e4b3348c417167771b1ddcf00e712a3a788fec48507ae36fc010d9a05c500d
+  recuperada: 0xae460F95C09b837F1898D528c727de3Fc994cB7a
+  No es quien aprobó: la firma no cubre este mensaje.
+
+✔ Valores, nombres y tipos están dentro de lo firmado: cambiar uno cambia el digest.

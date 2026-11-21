@@ -1,0 +1,13 @@
+La transacción: lo que se firmó y se envió
+  from:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  to:    0x40596E1B9B0032595240d85AC2Cf9e6b83041399
+  value: 1000000000000000000 wei = 1 ETH
+  r:     0xa3f470882f5f4fac40bcb197df1f2f2a3a144ed38f6406c27669b016ae2f98c4
+  s:     0x3cb000424e677e7c6922717ccb25f162d2a18b4e6ec86c1fc9f3ee5685db1d37
+
+El recibo: lo que la cadena hizo con ella
+  status:      1 (éxito)
+  blockNumber: 1
+  gasUsed:     21000
+
+✔ El monto y la firma están en la transacción; el resultado y el bloque, en el recibo.

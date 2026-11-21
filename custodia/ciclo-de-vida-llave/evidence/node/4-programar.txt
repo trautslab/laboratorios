@@ -1,0 +1,15 @@
+≈ dirección anterior: 0x3b9C1941EA85B64A3E2D2efabA7766ca363B3B43
+Sondeo con una llave de descarte: ScheduleKeyDeletion con 1 día → aceptado
+
+ScheduleKeyDeletion con 7 días sobre la llave anterior → estado: PendingDeletion
+≈ fecha de borrado: 2026-11-28T12:02:16Z
+Días hasta esa fecha: 7
+Firma con la llave anterior: rechazada
+  error: KMSInvalidStateException
+≈ mensaje: arn:aws:kms:us-east-1:000000000000:key/8cb698da-7463-4b26-8eaf-86f908440bf5 is pending deletion.
+EnableKey sobre la llave anterior: rechazado (KMSInvalidStateException)
+
+Un depósito de 0.05 ETH llega a la dirección anterior · recibo: status 1
+Saldo de la dirección anterior: 0.05 ETH. La única llave que puede moverlo no firma.
+
+✔ Programar la destrucción deja la llave sin firmar durante la espera. Si la fecha llega con saldo en la dirección, ese saldo se pierde.

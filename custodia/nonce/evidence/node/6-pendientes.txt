@@ -1,0 +1,11 @@
+Bloques automáticos: en pausa
+  latest 4 · pending 4
+Envío con el nonce 4: aceptado, espera un bloque
+  latest 4 · pending 5
+Envío con el nonce 5: aceptado, espera un bloque
+  latest 4 · pending 6
+Pido un bloque: el 4, con los nonces 4 y 5, en ese orden
+  latest 6 · pending 6
+Bloques automáticos: activos otra vez
+
+✔ `latest` cuenta lo incluido en bloques; `pending` suma lo que espera en orden. El siguiente nonce sale de `pending`.

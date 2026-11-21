@@ -1,0 +1,9 @@
+
+== Cadena local ==
+Nodo:                     http://127.0.0.1:8545
+Chain id:                 31337
+Bloque actual:            0
+Cuenta de prueba:         0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Su saldo:                 10000 ETH (ficticio)
+
+✔ La cadena responde. Deja esa terminal abierta.

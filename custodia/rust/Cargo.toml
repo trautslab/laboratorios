@@ -1,0 +1,29 @@
+[package]
+name = "ruta"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Versión en Rust de los laboratorios de la ruta «Custodia desde Node» (lab.trautslab.dev)."
+
+[dependencies]
+# Las dependencias son comunes a todos los laboratorios: no se agregan por laboratorio.
+alloy = { version = "2.6.1", features = ["full", "provider-anvil-api", "signer-local", "signer-mnemonic", "signer-keystore", "signer-aws", "eip712"] }
+aws-config = "1"
+aws-sdk-kms = "1"
+eyre = "0.6"
+hex = "0.4"
+# OsRng (lab llave-y-direccion): la fuente de azar del sistema operativo, pedida de forma explícita.
+rand_core = { version = "0.6", features = ["getrandom"] }
+k256 = { version = "0.13", features = ["ecdsa", "arithmetic", "pkcs8", "pem"] }
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha3 = "0.10"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+
+# Un binario por paso y cada uno enlaza alloy entero: sin símbolos de depuración ocupan
+# una fracción del disco y enlazan más rápido. Los laboratorios no se depuran con gdb.
+[profile.dev]
+debug = 0
+strip = "debuginfo"
+incremental = false

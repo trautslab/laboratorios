@@ -1,0 +1,12 @@
+Llave pública sin el prefijo 04: 64 bytes
+Keccak-256 de esos bytes (32 bytes):
+  0xc1ffd3cfee2d9e5cd67643f8f39fd6e51aad88f6f4ce6ab8827279cfffb92266
+Se descartan los primeros 12: c1ffd3cfee2d9e5cd67643f8
+Quedan los últimos 20:        f39fd6e51aad88f6f4ce6ab8827279cfffb92266
+Dirección: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+Dos errores que dan otra dirección, que esta llave no controla:
+  dejar el prefijo 04 (65 bytes):  0x56377c0b855c204ae32ed48dffddc1e059076f04
+  usar SHA3-256 en vez de Keccak:  0x8ed30a8892bc3cb25ca6b52d045b51f176f55913
+
+✔ La dirección se calcula: Keccak-256 de la llave pública, últimos 20 bytes. No se le pide a nadie.

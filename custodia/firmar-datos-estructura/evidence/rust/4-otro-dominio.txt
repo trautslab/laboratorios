@@ -1,0 +1,21 @@
+Aprobó:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Firma:   0x2080e5323a8eda80ac8415e53fe8834cfa86de60b7ca3b639745d42862f8a5045170beca2830c7949edec4a3d7ae2d0bdfcce20000c656d3e48795dbf17ed8e01c
+
+El dominio con el que se firmó
+  digest:     0x08fb8b18763dcbae1fac51e4cfd73baf3d97b99192b12e21a9c78b5f552fa265
+  recuperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  Es quien aprobó.
+Otra red: chain id 11155111
+  digest:     0xae70c7c9b117cfc74dd268c4b8ea1f94a9b73e593a6c3628a0167ff9f1e09326
+  recuperada: 0x178e2C3216fb44f0c752519b04251521d5589823
+  No es quien aprobó: aquí la firma no vale.
+Otro contrato verificador: 0xbBbB…BBbB
+  digest:     0xbddfe19cfce00ca9f8cf412b52b8e9e3914aced5cb39d1ef9dd7fa2675ce0e1f
+  recuperada: 0x43E36488E6804424Ba1a7be0Aad02B51CA861BB8
+  No es quien aprobó: aquí la firma no vale.
+Otra aplicación: «Pagos a proveedores»
+  digest:     0x85a4d83ef8de6207aec033e523ddfa15e81f73ab02f06a380634a76618849a64
+  recuperada: 0x64Be5C3B830089730c3012d2eE06b370D0b5d0Cb
+  No es quien aprobó: aquí la firma no vale.
+
+✔ La firma solo lleva a quien aprobó con el dominio exacto con el que se firmó.

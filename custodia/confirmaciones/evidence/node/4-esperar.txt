@@ -1,0 +1,7 @@
+Transferencia: 0x7d4c13ed95c0cee830d7457ec5a5976db1fc301cfa7a23fef0039a7ccf6aea87
+Pido 5 confirmaciones.
+  último bloque 3: 3 de 5, sigo esperando
+  último bloque 4: 4 de 5, sigo esperando
+  último bloque 5: 5 de 5, listo
+
+✔ esperar() devolvió con 5 confirmaciones. Antes de eso, la transferencia estaba incluida pero no contaba como hecha.

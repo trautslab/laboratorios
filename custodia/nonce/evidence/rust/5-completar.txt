@@ -1,0 +1,12 @@
+Nonce de la cuenta: 2
+Firmo con el nonce 2: el que faltaba.
+Envío: aceptado · hash 0x40cb70337e2331f622b74d057280361023580aa4348d75b65ba97a53373726b7
+
+Bloque 3, en orden de ejecución:
+  posición 0 · nonce 2 · hash 0x40cb70337e2331f622b74d057280361023580aa4348d75b65ba97a53373726b7
+  posición 1 · nonce 3 · hash 0x271e476433063961191cdb476e1813a7f6b8596d4554015152997edcbee8e47d
+
+Nonce de la cuenta: 4
+Pool del nodo:      0 listas para el próximo bloque · 0 en espera
+
+✔ Al llegar el nonce 2, entraron 2 transacciones en el mismo bloque: primero la de nonce menor.

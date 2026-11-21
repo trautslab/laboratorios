@@ -1,0 +1,14 @@
+
+== Retiro de 1 ETH a Ana con MPC ==
+Quiénes firmaron:           Carla y Elena (2 de 3)
+Mensajes intercambiados:    8, en 4 rondas
+Firma resultante:           una sola: r 0xe27d5b9c…c31b32 s 0x6d1fdf4c…d620da
+
+== Recibo ==
+Estado:                     success
+Destino de la transacción:  0x70997970c51812dc3a010c7d01b50e0d17dc79c8 (Ana, directo)
+Gas usado:                  21000
+Ana antes / después:        10001 / 10002 ETH
+   Para la cadena es una transferencia cualquiera, firmada por una cuenta cualquiera.
+
+✔ Dos partes firmaron y la cadena vio una sola firma.

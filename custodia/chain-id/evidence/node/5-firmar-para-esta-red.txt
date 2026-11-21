@@ -1,0 +1,13 @@
+Firmada para el chain id 1337:
+0x02f87482053980843b9aca0084773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c8880de0b6b3a764000080c080a026d4ab2c04d14bee21b6694435b54a6bbee33f277bcc8ecec7a7d049f0aca7ffa027ee88e89ac6c143ded24069e895a6a305fb1b38d40e90d1b437f7b4f32d7ea0
+
+El nodo es la red:  chain id 1337
+Petición:           eth_sendRawTransaction con esos bytes
+Respuesta del nodo: 0xd23a3a5cf3a7633483d6c77789fd42f58e1b485243fe73880f69b364f3050750
+
+Después del envío:
+  Recibo:                 success, bloque 1
+  Nonce de quien firmó:   1
+  Saldo del destinatario: 10001 ETH
+
+✔ Misma llave y misma transferencia, con el chain id de esta red: aceptada.

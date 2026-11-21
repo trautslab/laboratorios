@@ -1,0 +1,14 @@
+≈ Dirección calculada desde la llave pública: 0x7D1EBa9ce159cb9FfD45D1960bBB945bEABAA309
+Hash de prueba (32 bytes): 0xd75238a52d6d58efeac61a31ab40616df17ec7e4b74720924ce1b789543759d7
+
+Sign devolvió una firma en DER: dos números, r y s
+≈ Largo de la firma: 70 bytes
+≈ r: 0x4bad2befa6889a1163a4f23a7a17fb5b17efae725ed45878e152b571e04de97d
+≈ s: 0x6a099116fdd29f20c845b14e1b5a123add451664496896204d9f620463f679fd
+≈ s llegó en la mitad alta: no
+≈ Recuperada con 0: 0x7D1EBa9ce159cb9FfD45D1960bBB945bEABAA309
+≈ Recuperada con 1: 0x549B1A554553381ef1335D73991cA8Eb9Ee27621
+≈ Id de recuperación que acierta: 0
+La dirección recuperada coincide con la calculada: sí
+
+✔ El KMS firma con la llave privada de esa dirección. Tú pediste una firma y no la viste.

@@ -1,0 +1,14 @@
+Con coma flotante de 64 bits (Number en JavaScript, f64 en Rust)
+  Entero seguro más grande: 9007199254740991 (2^53 - 1)
+  2^53 + 1                = 9007199254740992
+  1234567890123456789 wei → 1234567890123456768 wei (cambió 21 wei)
+  "1.1" ETH × 10^18       = 1100000000000000128 wei (sobran 128 wei)
+  0.1 + 0.2               = 0.30000000000000004
+
+Con enteros (BigInt en JavaScript, U256 en Rust)
+  2^53 + 1                = 9007199254740993
+  1234567890123456789 wei → 1234567890123456789 wei (cambió 0 wei)
+  1.1 ETH = 11 × 10^17    = 1100000000000000000 wei
+  0.1 ETH + 0.2 ETH       = 300000000000000000 wei
+
+✔ Un monto en wei no cabe en un Number. Como entero, no se pierde ni un wei.

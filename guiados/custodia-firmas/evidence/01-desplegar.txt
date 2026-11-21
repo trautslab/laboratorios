@@ -1,0 +1,16 @@
+
+== Multifirma desplegada ==
+Compilador:                 solc 0.8.39
+Tamaño del contrato:        3617 bytes
+Dirección:                  0x5fbdb2315678afecb367f032d93f642f64180aa3
+Gas del despliegue:         871498
+Saldo:                      5 ETH
+
+== Lo que cualquiera puede leer de la cadena ==
+umbral():                   2
+duenos(0):                  0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 · Carla
+duenos(1):                  0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f · Diego
+duenos(2):                  0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 · Elena
+   Los fondos no están en la cuenta de una persona: están en el contrato.
+
+✔ Las reglas (quiénes y cuántos) son públicas y las hace cumplir la cadena.

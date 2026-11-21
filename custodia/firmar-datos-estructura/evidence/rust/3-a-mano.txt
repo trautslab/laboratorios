@@ -1,0 +1,15 @@
+1. Tipo:       AprobacionRetiro(string retiro,address destino,uint256 monto,uint256 vence)
+   typeHash:   0x66c51a788649b2abf9d49c0c019bcd093775046e670d4be285f8afd5285a3830
+2. hashStruct: 0xf6df97bc74b8651a8873f0c8a7afe5f83f6b4593363241ed2ca8e9dfc084a759
+3. Dominio:    EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)
+   separador:  0x93a3f34c4a90dcd72fdbef83cd87baedff294812176169dc1d477c3bc89cd9d4
+4. 0x1901 + separador + hashStruct = 66 bytes
+   digest:     0x08fb8b18763dcbae1fac51e4cfd73baf3d97b99192b12e21a9c78b5f552fa265
+
+La librería:   0x08fb8b18763dcbae1fac51e4cfd73baf3d97b99192b12e21a9c78b5f552fa265
+Son iguales:   sí
+
+Firma del paso 2: 0x2080e5323a8eda80ac8415e53fe8834cfa86de60b7ca3b639745d42862f8a5045170beca2830c7949edec4a3d7ae2d0bdfcce20000c656d3e48795dbf17ed8e01c
+Recuperada con el digest hecho a mano: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+✔ Firmar datos con tipos es firmar un hash de 32 bytes que cualquiera puede recalcular desde los campos.

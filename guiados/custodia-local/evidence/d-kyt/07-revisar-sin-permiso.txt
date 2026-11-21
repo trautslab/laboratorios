@@ -1,0 +1,6 @@
+
+== Caso en revisión ==
+Retiro:                   0.5 ETH de Ana hacia Dana
+Exposición del destino:   30 %
+Quien decide:             Mallory
+Resultado:                RECHAZADO · Mallory no figura como analista en kyt.json

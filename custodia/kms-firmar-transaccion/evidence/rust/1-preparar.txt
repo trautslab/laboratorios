@@ -1,0 +1,9 @@
+Alias:   alias/ruta-kms-firmar-transaccion
+≈ Llave: f58120ea-607e-471d-9e9c-27cad247bd50 (ya existía)
+Tipo:    ECC_SECG_P256K1, uso SIGN_VERIFY
+≈ Dirección: 0x94f71d104c49D7352faE05623eE1C3e34aBD69c8
+
+Saldo de esa dirección: 1 ETH
+Nonce de esa dirección: 0
+
+✔ La llave está en KMS, su dirección tiene ETH de prueba y todavía no envió nada.

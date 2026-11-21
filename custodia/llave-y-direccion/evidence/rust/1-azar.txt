@@ -1,0 +1,13 @@
+Pido 32 bytes al azar. Eso es toda la llave privada:
+≈ Llave generada: 0x81222ca18d995f8c31f070fd7049432bbf4f189a1652be781e5fbd1145c68587
+Largo: 32 bytes (64 caracteres hexadecimales)
+Límite n de la curva: 0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+¿Está entre 1 y n − 1? sí
+
+  número   a mano     librería
+  0        no sirve   no sirve
+  1        sirve      sirve
+  n − 1    sirve      sirve
+  n        no sirve   no sirve
+
+✔ Una llave privada es un número de 32 bytes entre 1 y n − 1. Salió de tu máquina y nadie más lo sabe.

@@ -1,0 +1,16 @@
+Lugar 2 · una variable de entorno
+  LLAVE_PRIVADA: 66 caracteres. El programa no abrió ningún archivo.
+
+Firmar con la llave de la variable
+  Hash:      0x7a37b0fbaf6d654e4c99182ebe032494cc1231cb15ec3c2b382f9335d088e77b
+  Dirección: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  Firma:     0xc56c1da07c5745b5fd3ec859cd3a7638c34604dae3953607ba84fc04a2212a410a0de5cb4fff63250fcf4c68f77579bdd12e3db273722eceba6027344f137d2a1c
+
+Dónde está la llave
+  En el disco: en ningún archivo de este laboratorio.
+  En la memoria del programa: desde que arranca, con el resto de su entorno.
+
+Quién más puede leerla
+  Un proceso hijo, sin pasarle nada: la heredó completa
+  Otro proceso de tu usuario, en /proc/<pid>/environ: la leyó completa
+✔ Variable de entorno: no está en el repositorio, pero la ven tus procesos hijos y quien lea tu entorno.

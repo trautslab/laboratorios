@@ -1,0 +1,18 @@
+{
+  "name": "trautslab-custodia-firmas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorio: el mismo retiro firmado con una multifirma en cadena y con firma por umbral (MPC). Solo para aprender; ver NOTICE.md.",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "engines": { "node": ">=20.18.0" },
+  "dependencies": {
+    "@noble/curves": "2.4.0",
+    "@silencelaboratories/dkls-wasm-ll-node": "1.2.0",
+    "solc": "0.8.39",
+    "viem": "2.58.2"
+  },
+  "devDependencies": {
+    "@foundry-rs/anvil": "1.7.1"
+  }
+}

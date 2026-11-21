@@ -1,0 +1,14 @@
+Mitad del orden de la curva: 0x7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0
+≈ s que devolvió KMS: 0x5295de607020dcbc8263e73e6d18a173f9844b5735669425ab240a51ea364942
+≈ Venía en la mitad: baja
+≈ s que se usa: 0x5295de607020dcbc8263e73e6d18a173f9844b5735669425ab240a51ea364942
+s queda en la mitad baja: sí
+
+Dirección que se recupera del hash y la firma:
+≈ Con yParity 0: 0x94f71d104c49D7352faE05623eE1C3e34aBD69c8
+≈ Con yParity 1: 0x66b932b9E46bE8855f7A4b0720894755A5419Eb1
+≈ Dirección de la llave: 0x94f71d104c49D7352faE05623eE1C3e34aBD69c8
+≈ yParity de esta firma: 0
+Uno de los dos recupera la dirección de la llave: sí
+
+✔ La firma ya tiene la forma que espera la cadena: r, s en la mitad baja y yParity.

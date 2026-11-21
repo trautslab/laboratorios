@@ -1,0 +1,8 @@
+≈ Dirección del custodio: 0x7D1EBa9ce159cb9FfD45D1960bBB945bEABAA309
+Saldo antes: 0 ETH
+La cuenta de prueba 0 de Anvil le envía 1 ETH
+≈ Transacción: 0x2d5d27765cc56311ef67f6b49c5d65e7a3c0b457239629a45d964daff0074e26
+Saldo después: 1 ETH
+Transacciones enviadas desde esa dirección: 0
+
+✔ La cadena lleva un saldo para esa dirección. Para moverlo hará falta una firma del KMS.

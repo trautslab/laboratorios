@@ -1,0 +1,10 @@
+
+== Caso en revisión ==
+Retiro:                   0.5 ETH de Ana hacia Dana
+Exposición del destino:   30 %
+Quien decide:             Paula
+Decisión:                 APROBADA
+Motivo:                   Dana acreditó el origen: 7 de 10 ETH son nómina de Empresa
+Resultado:                firmado y enviado, bloque 17
+
+✔ El caso quedó cerrado, con nombre y motivo.

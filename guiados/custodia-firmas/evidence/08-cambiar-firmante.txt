@@ -1,0 +1,17 @@
+
+== Multifirma: reemplazar a un dueño ==
+Gas usado:                  86343
+Dirección de la multifirma: 0x5fbdb2315678afecb367f032d93f642f64180aa3 (la misma)
+duenos(2) ahora:            0x976EA74026E726554dB657fA54763abd0C3a0aa9
+¿Elena sigue siendo dueña?: no
+   El cambio queda registrado en la cadena, a la vista de cualquiera.
+
+== MPC: rotar las partes ==
+Mensajes intercambiados:    18
+Dirección después de rotar: 0x06e461598f8670bFd13ffDCb17a55487E1D5fb3e (la misma)
+Dos partes nuevas:          firman juntas
+Parte vieja + parte nueva:  no hay firma · «Invalid final_session_id»
+Transacciones en la cadena: 0
+   Una parte copiada antes de rotar ya no combina con las nuevas. La cadena no se enteró de nada.
+
+✔ Dos cambios distintos: uno público y con gas, otro privado y sin tocar la cadena.

@@ -1,0 +1,6 @@
+
+== Carla firma la propuesta ==
+Huella de la propuesta:   0xbe05b8ffb3b7…7c742c02
+Firma:                    0xe61d8634377b…c44d3b1c
+Aprobaciones válidas:     1 de 2 (Carla)
+¿Alcanza el quórum?:      todavía no

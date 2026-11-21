@@ -1,0 +1,13 @@
+Mensaje 1: "retiro 1: 5 ETH a la cuenta A"
+  r = 0x4f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa
+  s = 0x44810ab3c96b7ed77e1591a307797d04c57eecddb1174a7f1ef858d2bfc23f6f
+  La librería la acepta: sí
+Mensaje 2: "retiro 2: 7 ETH a la cuenta B"
+  r = 0x4f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa
+  s = 0x5a7a9b5759099167a1105baf9f92314f1c9c2a6dae33170a5dfc792a91d187ac
+  La librería la acepta: sí
+
+Mismo r en las dos firmas: sí
+Mismo s en las dos firmas: no
+
+✔ Las dos firmas son válidas y comparten r. Ese r repetido dice, a cualquiera que las vea, que se usó el mismo k.

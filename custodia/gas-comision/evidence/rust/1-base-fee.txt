@@ -1,0 +1,5 @@
+Último bloque: 0
+Base fee (baseFeePerGas): 1000000000 wei = 1 gwei
+Gas usado en el bloque: 0 de 30000000
+
+✔ La base fee no la eliges tú: viene escrita en el bloque, en wei por unidad de gas.

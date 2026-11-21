@@ -1,0 +1,15 @@
+
+== Registro de decisiones (.estado/registro.jsonl) ==
+#   Tipo       Movimiento           Exposición   Decisión   Regla               Resultado
+1   depósito   Ana +3 ETH           0 %          PERMITIR   exposicion-baja     acreditado
+2   depósito   Beto +2 ETH          5 %          PERMITIR   exposicion-baja     acreditado
+3   depósito   Dana +2 ETH          30 %         REVISAR    exposicion-media    retenido hasta revisión
+4   depósito   Rita +4 ETH          75 %         BLOQUEAR   exposicion-alta     en cuarentena, sin acreditar
+5   retiro     → Ana 0.5 ETH        0 %          PERMITIR   exposicion-baja     firmado y enviado, bloque 16
+6   retiro     → Mezclador 0.5 ETH  100 %        BLOQUEAR   direccion-listada   no se firma
+7   retiro     → Mula 0.5 ETH       100 %        BLOQUEAR   exposicion-alta     no se firma
+8   retiro     → Dana 0.5 ETH       30 %         REVISAR    exposicion-media    en espera de una persona
+9   revisión   caso Dana (Mallory)  —            IGNORADA   no-es-analista      el caso sigue en espera · «Conozco a Dana, es de confianza»
+10  revisión   caso Dana (Paula)    —            APROBADA   decision-humana     firmado y enviado, bloque 17 · «Dana acreditó el origen: 7 de 10 ETH son nómina de Empresa»
+
+✔ 10 líneas: 3 permitidas, 2 a revisión, 3 bloqueadas, 1 resuelta por una analista y 1 intento sin permiso.

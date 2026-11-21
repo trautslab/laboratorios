@@ -1,0 +1,12 @@
+Nonce de la cuenta: 2
+Firmo con el nonce 3: me salto el 2.
+Envío: aceptado · hash 0x271e476433063961191cdb476e1813a7f6b8596d4554015152997edcbee8e47d
+
+Un segundo después:
+  Recibo:          no hay
+  Bloque actual:   2
+  Nonce (latest):  2
+  Nonce (pending): 2
+  Pool del nodo:   0 listas para el próximo bloque · 1 en espera
+
+✔ El nodo aceptó el nonce 3 y lo dejó en espera: no puede incluirlo hasta que llegue el 2.

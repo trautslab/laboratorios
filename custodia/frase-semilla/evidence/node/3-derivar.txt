@@ -1,0 +1,20 @@
+m/44'/60'/0'/0/0
+  llave privada 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+  dirección     0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  es la cuenta (0) de Anvil
+m/44'/60'/0'/0/1
+  llave privada 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+  dirección     0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+  es la cuenta (1) de Anvil
+m/44'/60'/0'/0/2
+  llave privada 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
+  dirección     0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+  es la cuenta (2) de Anvil
+
+En una llamada, el índice 9: 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720
+  es la cuenta (9) de Anvil
+
+Otra rama, m/44'/60'/1'/0/0: 0x8C8d35429F74ec245F8Ef2f4Fd1e551cFF97d650
+  no es una cuenta de Anvil
+
+✔ Con la frase y el camino se recupera cada llave. Anvil no guarda nada más que eso.

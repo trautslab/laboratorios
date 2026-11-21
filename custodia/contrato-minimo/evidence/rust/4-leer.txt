@@ -1,0 +1,6 @@
+Datos de la llamada: 0xecbac7cf (4 bytes: solo el selector)
+Respuesta cruda: 0x0000000000000000000000000000000000000000000000000000000000000000
+Decodificada: valor = 0
+Bloque antes: 1 · bloque después: 1
+
+✔ Leer no crea transacción: no hay hash, ni bloque nuevo, ni comisión.

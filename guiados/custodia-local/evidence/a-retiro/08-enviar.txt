@@ -1,0 +1,16 @@
+
+== Recibo ==
+Estado:                   success
+Transacción:              0x987829441382e712fc85e484319919a4cbeab7f79595c67d1bd910336b9109a0
+Bloque:                   2
+Gas usado:                21000
+Comisión pagada:          0.000039378675 ETH
+
+== Saldos ==
+Custodio antes:           10 ETH
+Custodio después:         9.499960621325 ETH
+Destino antes:            10000 ETH
+Destino después:          10000.5 ETH
+Próximo nonce:            1
+
+✔ Retiro confirmado en la cadena local.

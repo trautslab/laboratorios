@@ -1,0 +1,13 @@
+Dirección esperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+«Recibí el pedido 42»
+  dirección recuperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  coincide: la firma vale para este mensaje
+«Recibí el pedido 43»
+  dirección recuperada: 0xE31B1E8F58482b292438BCa124B11e24b2022f18
+  no coincide: la firma no vale para este mensaje
+«Recibí el pedido 42 »
+  dirección recuperada: 0xA3e3C0e4C0CF5d9fC6502741603c65BF24fcc6a2
+  no coincide: la firma no vale para este mensaje
+
+✔ Una firma vale para unos bytes exactos. Con otro mensaje no hay error: sale otra dirección.

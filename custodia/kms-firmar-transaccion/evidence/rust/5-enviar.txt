@@ -1,0 +1,17 @@
+Hash que firmó KMS: 0x74de25ab3349d385592063a4e5c59ea12cd106dc98ef738dcc290e19b7326475
+≈ Transacción firmada: 0x02f874827a6980843b9aca0084773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c88803782dace9d9000080c080a0f68b31fc68f5032a1f17620c4450d2749f7a013a4df3ee34fff0982dc53c0e96a02a3a74883266e7cacd0c7720e68705ae1ce61e7dbcef03a113cb2c0c04913c04
+≈ Hash de la transacción: 0x192170d55aa86f30dfeff5cf7aca6a0d12d8988d5189720edcfa4176ec68e1f9
+
+Recibo:
+  estado:    success
+  bloque:    2
+  gas usado: 21000
+≈ Remitente según la cadena: 0x94f71d104c49D7352faE05623eE1C3e34aBD69c8
+El remitente es la dirección de la llave de KMS: sí
+
+Saldos:
+  dirección de KMS: 1 ETH → 0.749960621325 ETH
+  destinatario:     10000.25 ETH
+  nonce de la dirección de KMS: 1
+
+✔ La cadena aceptó una transacción firmada por una llave que tu programa nunca tuvo.

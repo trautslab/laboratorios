@@ -1,0 +1,29 @@
+
+== Transacción sin firmar ==
+chainId:                  31337
+nonce:                    0
+to:                       0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+value:                    500000000000000000 wei (0.5 ETH)
+gas:                      21000
+maxFeePerGas:             2 gwei
+
+== Lo que viaja al llavero ==
+Hash a firmar:            0x29e6262ec9f22c8f05ae55399ff131fa6b1414f3d64fd55ebe58de4f499e3af3
+   KMS recibe solo estos 32 bytes. No ve el destino ni el monto.
+
+== Lo que devuelve el llavero ==
+Firma (DER):              70 bytes  0x3044022008e0…3c8b56ef
+r:                        0x08e0d4219e77…17a14ee1
+s:                        0x0742b9e31ea4…3c8b56ef  (ya era baja)
+yParity:                  1
+
+== Comprobación sin tocar la cadena ==
+Dirección recuperada:     0xB973365fdd404B1882912b69b601d966D34BD5a8
+Dirección del custodio:   0xB973365fdd404B1882912b69b601d966D34BD5a8
+¿Coinciden?:              sí
+
+== Transacción firmada ==
+Tamaño:                   119 bytes
+Hash de la transacción:   0x987829441382e712fc85e484319919a4cbeab7f79595c67d1bd910336b9109a0
+
+✔ Firmada y guardada en .estado/retiro-firmado.json. Todavía no se envió.

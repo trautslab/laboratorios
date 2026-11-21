@@ -1,0 +1,10 @@
+Red configurada: red-a, chain id 31337
+  El nodo de su URL responde: chain id 1337
+  No coinciden: no se firma.
+
+Red configurada: red-b, chain id 1337
+  El nodo de su URL responde: chain id 1337
+  Coinciden: se firma.
+  Dentro de lo firmado: chain id 1337, nonce 1
+
+✔ La comprobación detuvo la firma para la red cuya URL llevaba a otra cadena.

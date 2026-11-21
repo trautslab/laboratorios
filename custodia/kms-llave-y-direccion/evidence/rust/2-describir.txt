@@ -1,0 +1,12 @@
+DescribeKey alias/ruta-kms-llave-y-direccion
+
+≈ KeyId: e40209c3-2e79-4fc1-b7a1-14c7dea79003
+≈ Arn: arn:aws:kms:us-east-1:000000000000:key/e40209c3-2e79-4fc1-b7a1-14c7dea79003
+KeySpec: ECC_SECG_P256K1
+KeyUsage: SIGN_VERIFY
+SigningAlgorithms: ECDSA_SHA_256
+KeyState: Enabled
+Origin: AWS_KMS
+KeyManager: CUSTOMER
+
+✔ Curva, uso, algoritmo y estado. La llave privada no viene en la respuesta.

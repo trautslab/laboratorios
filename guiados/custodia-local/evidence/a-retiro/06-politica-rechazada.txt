@@ -1,0 +1,13 @@
+
+== Solicitud de retiro ==
+Destino:                  0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+Monto:                    5 ETH
+
+== Política vigente (politica.json) ==
+Límite por retiro:        1 ETH
+Destinos permitidos:      Ana, Luis
+
+== Decisión ==
+Resultado:                RECHAZAR
+Regla:                    limite-por-retiro
+Motivo:                   El monto supera el límite de 1 ETH por retiro.

@@ -1,0 +1,10 @@
+
+== De llave pública a dirección ==
+1. KMS entrega (DER):     88 bytes  0x305630100607…06d736e9
+2. Punto de la curva:     65 bytes  04 + X + Y
+   X:                     0xcfa06583ff2e…d734f138
+   Y:                     0xfdf34c215736…06d736e9
+3. keccak256(X || Y):     0xa2cabb1f9cfa…d34bd5a8
+4. Últimos 20 bytes:      0xB973365fdd404B1882912b69b601d966D34BD5a8
+
+✔ Dirección del custodio: 0xB973365fdd404B1882912b69b601d966D34BD5a8

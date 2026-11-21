@@ -1,0 +1,16 @@
+1. Firmado por una aprobadora de la lista
+«Apruebo el retiro R-17 por 5 ETH»
+  firmó: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  está en la lista: APROBADO
+
+2. Firmado por alguien que no está en la lista
+«Apruebo el retiro R-17 por 5 ETH»
+  firmó: 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+  no está en la lista: RECHAZADO
+
+3. La firma del caso 1 con el monto cambiado
+«Apruebo el retiro R-17 por 50 ETH»
+  firmó: 0xC1532F52d7e2bf3B77f30c904A5550B288b266aa
+  no está en la lista: RECHAZADO
+
+✔ El servicio aprobó una de tres sin guardar ninguna llave: solo una lista de direcciones.

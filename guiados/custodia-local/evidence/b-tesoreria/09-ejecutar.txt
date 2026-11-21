@@ -1,0 +1,9 @@
+
+== Ejecución de la recarga ==
+Aprobaciones válidas:     2 de 2 (Carla, Diego)
+¿Se ejecutó?:             sí, bloque 11
+Monto:                    4.000168 ETH
+Hot:                      5 ETH
+Warm:                     1.999664 ETH
+
+✔ La hot volvió a su objetivo con dos aprobaciones humanas.

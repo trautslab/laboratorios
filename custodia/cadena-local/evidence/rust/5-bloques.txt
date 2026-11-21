@@ -1,0 +1,5 @@
+Bloque ahora:               0
+Tres segundos después:      0
+Después de pedir un bloque: 1
+
+✔ Sin transacciones no hay bloques nuevos. Y todo esto vive en la memoria de Anvil.

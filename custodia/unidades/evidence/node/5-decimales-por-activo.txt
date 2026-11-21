@@ -1,0 +1,12 @@
+El mismo texto, dos activos
+  "1.5" con 18 decimales → 1500000000000000000
+  "1.5" con  6 decimales → 1500000
+  Un entero es 1000000000000 veces el otro (10^12)
+
+El mismo entero, leído con los decimales de otro activo
+  1500000 con  6 decimales → 1.5 (correcto)
+  1500000 con 18 decimales → 0.0000000000015
+  1500000000000000000 con 18 decimales → 1.5 (correcto)
+  1500000000000000000 con  6 decimales → 1500000000000
+
+✔ El entero no dice cuántos decimales tiene. Ese dato va siempre junto al monto.

@@ -1,0 +1,13 @@
+Precio efectivo: 3 gwei = 1 gwei de base fee + 2 gwei de propina
+Productor del bloque (miner): 0x0000000000000000000000000000000000000000
+
+Cambio de saldo entre el bloque 0 y el bloque 1:
+  Quien envía:  -1.000063 ETH
+  Quien recibe: +1 ETH
+  Productor:    +0.000042 ETH
+  Suma:         -0.000021 ETH
+
+Propina × gas:  2 gwei × 21000 = 0.000042 ETH
+Base fee × gas: 1 gwei × 21000 = 0.000021 ETH
+
+✔ La propina está en el saldo del productor. La base fee no está en ningún saldo: se quemó.

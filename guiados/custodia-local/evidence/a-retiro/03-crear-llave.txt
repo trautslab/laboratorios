@@ -1,0 +1,10 @@
+
+== Llave creada en KMS ==
+Identificador:            a7f174b2-9a18-4cbb-92e0-1a1297525be5
+Curva:                    ECC_SECG_P256K1 (la de Ethereum)
+Uso:                      SIGN_VERIFY
+Estado:                   Enabled
+   KMS no tiene ninguna operación para exportar la llave privada.
+   Lo único que guardamos en .estado/llaves.json es el identificador.
+
+✔ La llave existe y solo KMS puede usarla.

@@ -1,0 +1,5 @@
+Cuenta de prueba 0: 10000000000000000000000 wei = 10000 ETH
+Cuenta de prueba 1: 10000000000000000000000 wei = 10000 ETH
+Una que nadie usó : 0 wei = 0 ETH
+
+✔ El saldo no está en la cuenta: lo lleva la cadena, y se lo preguntas a ella.

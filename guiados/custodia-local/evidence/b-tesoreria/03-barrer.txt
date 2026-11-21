@@ -1,0 +1,17 @@
+
+== Barrido de depósitos a la hot ==
+De Ana:                   5.999958 ETH movidos, 0.000042 ETH de comisión
+De Luis:                  3.999958 ETH movidos, 0.000042 ETH de comisión
+
+== En la cadena ==
+Depósitos de Ana:         0 ETH
+Depósitos de Luis:        0 ETH
+Hot:                      10.999916 ETH
+
+== En el libro (no cambió) ==
+Ana:                      6 ETH
+Luis:                     4 ETH
+   Mover fondos entre carteras propias no cambia lo que se le debe a cada cliente.
+   La comisión del barrido la absorbe el custodio: el cliente sigue teniendo 6 y 4.
+
+✔ Bloque 5: los depósitos quedaron vacíos y la hot concentra los fondos.

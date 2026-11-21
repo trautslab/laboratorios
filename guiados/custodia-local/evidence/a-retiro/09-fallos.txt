@@ -1,0 +1,30 @@
+
+== Caso 1 · Monto sobre el límite (5 ETH a Ana) ==
+Decisión:                 RECHAZAR (limite-por-retiro)
+Firmas pedidas a KMS:     0
+
+== Caso 2 · Destino que nadie dio de alta (0.5 ETH) ==
+Decisión:                 RECHAZAR (destino-no-permitido)
+Firmas pedidas a KMS:     0
+   La política corta antes del llavero: sin aprobación no existe firma.
+
+== Caso 3 · Reenviar el retiro del paso 8 (repetición) ==
+El nodo responde:         nonce too low
+   Esa firma lleva el nonce 0, que ya se usó: no se puede cobrar dos veces.
+
+== Caso 4 · Llave deshabilitada en KMS (0.5 ETH a Ana) ==
+Decisión de política:     APROBAR (dentro-de-politica)
+¿Se firmó?:               no · KMS respondió DisabledException
+   Deshabilitar la llave es el freno de emergencia: nada sale mientras esté así.
+
+== Caso 5 · Con la llave habilitada otra vez (0.25 ETH a Luis) ==
+Decisión:                 APROBAR (dentro-de-politica)
+Estado en cadena:         success
+Bloque:                   3
+
+== Resumen ==
+Saldo al empezar:         9.499960621325 ETH
+Saldo al terminar:        9.249923536768099 ETH
+Firmas pedidas a KMS:     2 (una rechazada por KMS, una entregada)
+
+✔ De cinco intentos salió uno: el único que cumplía todo.

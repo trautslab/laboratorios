@@ -1,0 +1,11 @@
+Firma 1: r = 0x232a34acdaf2055c…  "retiro 1: 5 ETH a la cuenta A"
+Firma 2: r = 0xcab10f6e7717296e…  "retiro 2: 7 ETH a la cuenta B"
+Firma 3: r = 0xa9a9afb37441bc56…  "retiro 3: 1 ETH a la cuenta C"
+Firma 4: r = 0x14bc415895212cd2…  "retiro 4: 2 ETH a la cuenta D"
+Firma 5: r = 0x232a34acdaf2055c…  "retiro 5: 9 ETH a la cuenta E"
+Firma 6: r = 0xcab10f6e7717296e…  "retiro 2: 7 ETH a la cuenta B"
+
+Firmas 1 y 5: mismo r, mensajes distintos → llave expuesta
+Firmas 2 y 6: mismo r, mismo mensaje → es la misma firma repetida, no revela nada
+
+✔ Un r repetido con mensajes distintos se detecta con datos públicos. Si aparece, esa llave ya no es secreta.

@@ -1,0 +1,16 @@
+
+== Retiros atendidos por la hot ==
+Ana retira 1 ETH:         enviado, bloque 7
+Luis retira 1 ETH:        enviado, bloque 8
+Ana retira 1 ETH:         enviado, bloque 9
+Ana retira 1 ETH:         enviado, bloque 10
+Luis retira 4 ETH:        RECHAZADO · Luis no tiene saldo suficiente en el libro.
+
+== Después de los retiros ==
+Libro · Ana:              3 ETH
+Libro · Luis:             3 ETH
+Hot:                      0.999832 ETH
+Regla de bandas:          RECARGAR_DESDE_WARM · La hot bajó del mínimo de 2 ETH.
+   La hot tenía fondos de sobra para los 4 ETH de Luis, pero no eran de Luis.
+
+✔ Cuatro retiros enviados y uno rechazado por el libro.

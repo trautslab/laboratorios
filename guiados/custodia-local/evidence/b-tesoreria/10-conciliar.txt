@@ -1,0 +1,21 @@
+
+== Activos: lo que hay en la cadena ==
+Depósitos:                0 ETH
+Hot:                      5 ETH
+Warm:                     1.999664 ETH
+Total de activos:         6.999664 ETH
+
+== Pasivos: lo que se le debe a los clientes ==
+Ana:                      3 ETH
+Luis:                     3 ETH
+Total de pasivos:         6 ETH
+
+== La cuenta que tiene que cerrar: pasivos + capital − comisiones ==
+Capital propio:           1 ETH
+Comisiones pagadas:       0.000336 ETH
+Debería haber:            6.999664 ETH
+Activos en la cadena:     6.999664 ETH
+Diferencia:               0 wei
+   Los activos cubren todo lo adeudado y sobra el capital propio menos lo gastado en comisiones.
+
+✔ Conciliación exacta, al wei.

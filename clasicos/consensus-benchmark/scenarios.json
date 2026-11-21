@@ -1,0 +1,5 @@
+[
+  { "name": "healthy", "views": 3, "commits": 3, "latenciesMs": [42, 46, 44], "safetyViolations": 0 },
+  { "name": "byzantine-leader", "views": 5, "commits": 2, "latenciesMs": [91, 86], "safetyViolations": 0 },
+  { "name": "packet-loss", "views": 6, "commits": 2, "latenciesMs": [128, 119], "safetyViolations": 0 }
+]

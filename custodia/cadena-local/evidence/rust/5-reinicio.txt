@@ -1,0 +1,4 @@
+Chain id:      31337
+Bloque actual: 0
+
+✔ Mismas respuestas que a mano, ya convertidas a números.

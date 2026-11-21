@@ -1,0 +1,16 @@
+
+== Depósitos que llegan a la wallet del custodio ==
+Ana deposita 3 ETH:       exposición 0 % → PERMITIR · acreditado
+Beto deposita 2 ETH:      exposición 5 % → PERMITIR · acreditado
+Dana deposita 2 ETH:      exposición 30 % → REVISAR · retenido hasta revisión
+Rita deposita 4 ETH:      exposición 75 % → BLOQUEAR · en cuarentena, sin acreditar
+
+== Libro del custodio ==
+Ana:                      3 ETH
+Beto:                     2 ETH
+Dana:                     0 ETH
+Rita:                     0 ETH
+   Los 4 ETH de Rita llegaron a la wallet del custodio, pero no a su saldo: no puede usarlos.
+   Recibir no se puede bloquear. Lo que se controla es acreditar y dejar usar.
+
+✔ Dos depósitos acreditados, uno retenido y uno en cuarentena.

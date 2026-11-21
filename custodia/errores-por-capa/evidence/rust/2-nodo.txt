@@ -1,0 +1,17 @@
+Pregunta correcta
+  envío:    {"jsonrpc":"2.0","id":1,"method":"eth_chainId","params":[]}
+  HTTP 200 · result "0x7a69"
+
+Método que no existe
+  envío:    {"jsonrpc":"2.0","id":1,"method":"eth_noExiste","params":[]}
+  HTTP 200 · error.code -32601 · error.message "Method not found"
+
+Parámetro mal formado
+  envío:    {"jsonrpc":"2.0","id":1,"method":"eth_getBalance","params":["hola","latest"]}
+  HTTP 200 · error.code -32602 · error.message "invalid string length"
+
+JSON cortado
+  envío:    {"jsonrpc":"2.0","id":1,"method":
+  HTTP 200 · error.code -32600 · error.message "Invalid request"
+
+✔ Capa de nodo: el HTTP dice 200 las cuatro veces. El error viaja dentro del JSON.

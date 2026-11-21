@@ -1,0 +1,10 @@
+Gas usado × precio efectivo: 21000 × 3000000000 wei
+Comisión calculada: 63000000000000 wei = 63000 gwei = 0.000063 ETH
+
+Saldo antes (bloque 0):   10000 ETH
+Saldo después (bloque 1): 9998.999937 ETH
+Salió de la cuenta:       1.000063 ETH
+Monto enviado:            1 ETH
+Diferencia:               63000000000000 wei
+
+✔ La diferencia es la comisión: gas usado × precio efectivo, wei por wei.

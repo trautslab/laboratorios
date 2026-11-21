@@ -1,0 +1,9 @@
+Compilador: solc 0.8.39
+Código de creación: 267 bytes (se envía una vez, al desplegar)
+Código que queda:   237 bytes (lo que guarda la cadena)
+
+Funciones del ABI:
+  sumar(uint256)   selector 0xdf94c337  escribe
+  valor()          selector 0xecbac7cf  lee
+
+✔ El ABI dice cómo hablarle al contrato; el código es lo que la cadena ejecuta.

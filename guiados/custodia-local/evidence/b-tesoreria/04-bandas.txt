@@ -1,0 +1,13 @@
+
+== Regla de bandas (tesoreria.json) ==
+Bandas mín/obj/máx:       2 / 5 / 8 ETH
+Saldo de la hot:          10.999916 ETH
+Decisión:                 GUARDAR_EN_WARM
+Motivo:                   La hot supera el máximo de 8 ETH.
+
+== Después de guardar ==
+Hot:                      5 ETH
+Warm:                     5.999874 ETH
+   Si alguien compromete la hot, lo máximo que puede llevarse es lo que hay en la hot.
+
+✔ El exceso está en warm.

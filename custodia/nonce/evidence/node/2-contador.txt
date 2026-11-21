@@ -1,0 +1,8 @@
+Cuenta que envía: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Nonce antes de enviar:          0
+Nonce que llevó la transacción: 0
+Incluida en el bloque:          1
+Nonce después de enviar:        1
+Nonce de la cuenta que recibió: 0
+
+✔ El nonce cuenta lo que una cuenta envía: pasó de 0 a 1. Recibir no lo mueve.

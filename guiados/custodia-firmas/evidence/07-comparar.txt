@@ -1,0 +1,13 @@
+
+== El mismo retiro de 1 ETH a Ana ==
+                               MULTIFIRMA                         MPC
+La transacción va a            un contrato                        Ana, directo
+Datos adjuntos                 516 bytes                          0 bytes
+Gas usado                      75498                              21000
+Firmas visibles en la cadena   2 (Carla y Diego)                  1 (no dice de quién)
+Umbral visible en la cadena    sí: 2 de 3                         no
+Quién hace cumplir la regla    el contrato, en la cadena          el protocolo, fuera de la cadena
+   La multifirma costó 3.59 veces el gas de la transferencia con MPC.
+   Con la multifirma, un tercero puede auditar quién firmó. Con MPC, eso depende de tus propios registros.
+
+✔ Mismo resultado para Ana; rastro muy distinto en la cadena.

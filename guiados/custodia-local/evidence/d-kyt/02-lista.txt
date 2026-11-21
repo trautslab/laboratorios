@@ -1,0 +1,16 @@
+
+== Lista de vigilancia (kyt.json) ==
+Mezclador:                0xe6d020D26ED25FAB772CC958771b73b43E9e2e8d · servicio de mezcla sancionado (ficticio)
+
+== ¿Quién figura en la lista? ==
+Mezclador:                SÍ figura
+Mula:                     no figura
+Empresa:                  no figura
+Ana:                      no figura
+Beto:                     no figura
+Dana:                     no figura
+Rita:                     no figura
+   La Mula no figura, y todo lo que tiene se lo envió el Mezclador.
+   Mirar solo la lista deja pasar cualquier cosa que esté a un salto de distancia.
+
+✔ La lista responde rápido, pero solo ve el primer salto.

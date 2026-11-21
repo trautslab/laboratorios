@@ -1,0 +1,8 @@
+Petición:   {"jsonrpc":"2.0","id":1,"method":"eth_chainId","params":[]}
+Respuesta:  "0x7a69"
+En decimal: 31337
+
+web3_clientVersion → anvil/v1.7.1
+eth_blockNumber    → "0x0" = 0
+
+✔ La cadena es un servicio HTTP: le preguntas con JSON y responde con JSON.

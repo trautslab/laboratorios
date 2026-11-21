@@ -1,0 +1,18 @@
+Con el yParity contrario:
+≈ Dirección que se recupera: 0x33d15aA0A396b92155C802eD2a7A30AeeE52D504
+  Es la dirección de la llave: no
+  Saldo de esa dirección: 0 ETH
+  Respuesta del nodo: error -32003 · Insufficient funds for gas * price + value
+
+Con s en la mitad alta:
+≈ Dirección que se recupera: 0x94f71d104c49D7352faE05623eE1C3e34aBD69c8
+  Es la dirección de la llave: sí
+  s mayor que la mitad del orden: sí (EIP-2: firma inválida)
+  Respuesta del nodo: aceptada
+≈ Hash de la transacción: 0x4ea28b16d2e758eb8ea99a85687f34ae9da6549a28dc60e995c05f648c312356
+  Bloque: 3
+  s dentro de la transacción minada, mayor que la mitad del orden: sí
+
+Nonce de la dirección de KMS: 2
+
+✔ El yParity equivocado se nota enseguida. La s alta no: esta cadena local la dejó pasar, así que la comprobación va en tu código.

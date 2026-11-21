@@ -1,0 +1,13 @@
+Estado: Enabled
+Firma con el alias: aceptada
+
+DisableKey → estado: Disabled
+Firma con el alias: rechazada
+  error: DisabledException
+≈ mensaje: arn:aws:kms:us-east-1:000000000000:key/8cb698da-7463-4b26-8eaf-86f908440bf5 is disabled.
+Saldo de la dirección: 0.899958 ETH. La cadena no se entera: los fondos siguen ahí.
+
+EnableKey → estado: Enabled
+Firma con el alias: aceptada
+
+✔ Deshabilitar detiene la firma al instante y no destruye nada: con EnableKey la misma llave vuelve a firmar.

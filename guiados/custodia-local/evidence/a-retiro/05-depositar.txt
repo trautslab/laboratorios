@@ -1,0 +1,9 @@
+
+== Depósito a la wallet del custodio ==
+Dirección:                0xB973365fdd404B1882912b69b601d966D34BD5a8
+Saldo antes:              0 ETH
+Transacción:              0x9b70b788ff8f36477d388077e1166c8208f1e213a0374adff9271b28b794eab3
+Incluida en el bloque:    1
+Saldo después:            10 ETH
+
+✔ El custodio tiene fondos. La llave no intervino para recibirlos.

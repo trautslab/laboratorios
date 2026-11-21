@@ -1,0 +1,7 @@
+De:    0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Para:  0x40596E1B9B0032595240d85AC2Cf9e6b83041399
+Valor: 1 ETH
+
+Hash:  0x6a6bdb4980c008950cae198884ee80114e0a58b7cfdaee25c578849018c79d3c
+
+✔ El nodo aceptó el mensaje firmado y devolvió su hash. Guárdalo: con él se pide el recibo.

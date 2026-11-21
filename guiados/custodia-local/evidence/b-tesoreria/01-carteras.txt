@@ -1,0 +1,10 @@
+
+== Carteras de la tesorería (cada llave vive en KMS) ==
+Depósitos de Ana:         0x4571660d35D9f58E4B7B493083f1EaF9E90239a3
+Depósitos de Luis:        0x69aE3178010689673Fa1fC985E9D2B8516968B91
+Hot:                      0x69D1fB1fe467fe04928D381bA4F73B69B01B49D7
+Warm:                     0x1276478cb94eEeDD58d5D7a57761fbe9be217954
+   Cuatro llaves distintas: comprometer una no compromete a las demás.
+   La hot arranca con 1 ETH del propio custodio para pagar comisiones.
+
+✔ Cuatro carteras listas.

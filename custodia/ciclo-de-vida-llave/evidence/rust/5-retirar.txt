@@ -1,0 +1,19 @@
+CancelKeyDeletion → estado: Enabled
+
+Retiro en orden:
+  1. detener    el alias de pagos apunta a otra llave: sí
+  2. mover      0.049958 ETH a la dirección nueva · recibo: status 1
+  3. verificar  saldo de la dirección anterior: 0 ETH
+  4. programar  DisableKey → Disabled · ScheduleKeyDeletion con 7 días → PendingDeletion
+  5. esperar    hasta la fecha de borrado se vigila la dirección; si llega algo, se cancela y se repite
+
+Registro del retiro:
+≈ llave retirada: 61d102fb-5615-4989-8f5c-e1019484e586
+≈ dirección retirada: 0xe33793DaFe95143a11Cd74A5d22869a26C237762
+≈ llave que la reemplaza: f731f6ff-0509-4982-ba12-fc77b1f64277
+≈ dirección que la reemplaza: 0x344B550eC71180394abcb9bdbFc37A55F52De72C
+≈ transacción del último traslado: 0xa55c29d958527cf15c0290b5d6d441a1cc5872119403e644aac87e9f4a83e73b
+≈ fecha de borrado: 2026-11-28T12:02:18Z
+Saldos al cerrar · anterior 0 ETH · nueva 0.849832 ETH
+
+✔ Retiro en orden: detener, mover, verificar saldo cero, programar y esperar. Lo que se destruye es una llave de una dirección vacía.

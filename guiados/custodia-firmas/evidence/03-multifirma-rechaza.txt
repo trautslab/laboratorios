@@ -1,0 +1,9 @@
+
+== Intentos de retirar 1 ETH que el contrato rechaza ==
+Solo Carla:                 faltan firmas
+Carla dos veces:            firmas repetidas o desordenadas
+Carla y Mallory:            firmante no es dueno
+Saldo de la multifirma:     4 ETH (antes: 4)
+   El rechazo lo decide el contrato. No hay servidor que se pueda saltar.
+
+✔ Sin dos dueños distintos, la cadena no ejecuta.

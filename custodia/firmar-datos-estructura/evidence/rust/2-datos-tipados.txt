@@ -1,0 +1,17 @@
+Lo que la wallet puede mostrar antes de firmar:
+  Aplicación: Aprobaciones de retiro (versión 1)
+  Red:        chain id 1
+  Contrato:   0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC
+  AprobacionRetiro
+    retiro   string   RET-0042
+    destino  address  0x90F79bf6EB2c4f870365E785982E1f101E93b906
+    monto    uint256  25000000000000000000
+    vence    uint256  1798761600
+
+Firma (65 bytes):
+0x2080e5323a8eda80ac8415e53fe8834cfa86de60b7ca3b639745d42862f8a5045170beca2830c7949edec4a3d7ae2d0bdfcce20000c656d3e48795dbf17ed8e01c
+
+Dirección recuperada:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Dirección de la llave: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+✔ Lo firmado trae aplicación, red, contrato y cuatro campos con nombre: hay algo que leer antes de aprobar.

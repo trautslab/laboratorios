@@ -1,0 +1,15 @@
+La misma frase y el mismo camino, m/44'/60'/0'/0/0. Solo cambia la passphrase.
+
+Sin passphrase
+  semilla   0x9dfc3c64c2f8bede… (primeros 8 de 64 bytes)
+  dirección 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Passphrase «custodia»
+  semilla   0x23738f91d65c1607… (primeros 8 de 64 bytes)
+  dirección 0x36b3C6D58A82Fd48c6A7A72CC4F4b075070C06fC
+Passphrase «Custodia»
+  semilla   0x7da1bf608930ab75… (primeros 8 de 64 bytes)
+  dirección 0x29B428833aBFD4F19b560DbEf895956c0E670144
+
+Ninguna fue rechazada: toda passphrase es válida y lleva a un árbol distinto.
+
+✔ Las mismas 12 palabras con otra passphrase dan otras direcciones, sin ningún aviso.

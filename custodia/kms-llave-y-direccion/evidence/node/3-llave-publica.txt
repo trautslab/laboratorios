@@ -1,0 +1,15 @@
+GetPublicKey devolvió 88 bytes en DER
+
+Etiquetas (23 bytes):
+  3056                secuencia de 86 bytes: todo lo que sigue
+  3010                secuencia de 16 bytes: qué tipo de llave es
+  06072a8648ce3d0201  identificador: llave pública de curva elíptica
+  06052b8104000a      identificador: la curva secp256k1
+  034200              cadena de bits de 66 bytes: un 00 (no sobran bits) y el punto
+Punto de la curva (65 bytes):
+  04                  punto sin comprimir: siguen X e Y, 32 bytes cada una
+≈ X: 0x548bc35f4b4e812cc09c1057fea6d55ff4fe487b8446299c1af1b7408cbe4b20
+≈ Y: 0xa2d5a1c35aa0e8db069515d887a3c2780684b7472d19dbd05196c813be59f86c
+Leída con una librería: tipo ec, curva secp256k1
+
+✔ La llave pública son dos números, X e Y. Lo demás son etiquetas.

@@ -1,0 +1,16 @@
+
+== Retiro de 1 ETH a Ana con multifirma ==
+Huella que se firma:        0x85a5128553…73ca27f5
+Firma de Carla:             0x237189f5ae…82d9111b
+Firma de Diego:             0x78a6a2ea22…c3237a1b
+Quién envió la transacción: el grifo (no es dueño: solo paga el gas)
+
+== Recibo ==
+Estado:                     success
+Destino de la transacción:  0x5fbdb2315678afecb367f032d93f642f64180aa3 (el contrato)
+Gas usado:                  75498
+Ana antes / después:        10000 / 10001 ETH
+Saldo de la multifirma:     4 ETH
+   Las dos firmas viajan dentro de la transacción y el contrato las comprueba una por una.
+
+✔ El contrato contó dos firmas válidas y pagó.

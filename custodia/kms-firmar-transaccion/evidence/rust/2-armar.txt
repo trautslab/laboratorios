@@ -1,0 +1,16 @@
+Transacción sin firmar (tipo 2):
+  chain id:         31337
+  nonce:            0
+  propina máxima:   1 gwei por gas
+  comisión máxima:  2 gwei por gas
+  gas:              21000
+  para:             0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+  valor:            0.25 ETH
+
+Serializada sin firma (51 bytes):
+0x02f1827a6980843b9aca0084773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c88803782dace9d9000080c0
+
+Hash a firmar (32 bytes):
+0x74de25ab3349d385592063a4e5c59ea12cd106dc98ef738dcc290e19b7326475
+
+✔ Esos 32 bytes son lo único que va a recibir KMS. Este script no habló con KMS ni con la cadena.

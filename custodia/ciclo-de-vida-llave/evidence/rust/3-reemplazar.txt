@@ -1,0 +1,20 @@
+EnableKeyRotation sobre la llave en uso: rechazado
+  error: UnsupportedOperationException
+≈ mensaje: (el servicio no envió texto)
+
+Llave nueva creada · estado: Enabled
+≈ id de la llave nueva: f731f6ff-0509-4982-ba12-fc77b1f64277
+≈ dirección anterior: 0xe33793DaFe95143a11Cd74A5d22869a26C237762
+≈ dirección nueva: 0x344B550eC71180394abcb9bdbFc37A55F52De72C
+Otra llave, otra dirección: sí
+
+Antes   · anterior 0.899958 ETH · nueva 0 ETH
+Traslado de 0.899916 ETH firmado por la llave anterior · comisión 0.000042 ETH · recibo: status 1
+Después · anterior 0 ETH · nueva 0.899916 ETH
+
+UpdateAlias: alias/ruta-ciclo-de-vida-llave → llave nueva
+alias/ruta-ciclo-de-vida-llave-anterior → llave anterior
+Pago de 0.1 ETH firmado con el alias · recibo: status 1 · salió de la dirección nueva: sí
+Saldos  · anterior 0 ETH · nueva 0.799874 ETH
+
+✔ Reemplazar una llave de firma es cambiar de dirección: llave nueva, fondos trasladados y el alias apuntando a ella.

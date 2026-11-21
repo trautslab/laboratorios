@@ -1,0 +1,19 @@
+Techo 500 gwei, propina 2 gwei → bloque 2
+  Base fee del bloque:        0.875175 gwei
+  Base fee + propina pedida:  2.875175 gwei
+  Precio efectivo:            2.875175 gwei
+  Propina que se cobró:       2 gwei
+  Comisión pagada:            60378.675 gwei
+  Techo × gas usado:          10500000 gwei
+
+Techo 2.5 gwei, propina 2 gwei → bloque 3
+  Base fee del bloque:        0.765931281 gwei
+  Base fee + propina pedida:  2.765931281 gwei
+  Precio efectivo:            2.5 gwei
+  Propina que se cobró:       1.734068719 gwei
+  Comisión pagada:            52500 gwei
+  Techo × gas usado:          52500 gwei
+
+Techo 0.5 gwei, propina 0.1 gwei → rechazada: max fee per gas less than block base fee
+
+✔ Pagas base fee del bloque + propina, nunca más que el techo. El techo no es el precio.

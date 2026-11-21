@@ -1,0 +1,14 @@
+Firmar con el KMS: viaja el hash, la llave no
+  Hash enviado: 0x7a37b0fbaf6d654e4c99182ebe032494cc1231cb15ec3c2b382f9335d088e77b
+  Petición: Sign · KeyId alias/ruta-donde-vive-la-llave · MessageType DIGEST
+  Algoritmo que devuelve el servicio: ECDSA_SHA_256
+≈ Firma 1 (DER): 0x304402200486d1a70651d72d818a8719a65bf173851273958b3972b168ce4276f041d39d0220060dfc67854d221387f83da4170999e4d461b0fa8f0960dc2cc4c06cd2a5b1fe
+≈ Firma 2 (DER): 0x3045022100c6138fa64285892e1aa2c3aaaf2a76ffc8e149f50fa0b6982067e5d2ac93c61b02204b030262e39fb0ce45ba9ad4dce5f09bb2d8132788b072866eea461e2eb25e61
+  ¿Las dos firmas del mismo hash son iguales? no
+
+Verificar con la llave pública, sin el KMS
+  Firma 1 sobre el hash: válida
+  Firma 2 sobre el hash: válida
+  Firma 1 sobre otro hash: no válida
+  Bytes de llave privada que pasaron por este programa: 0
+✔ El KMS firmó dos veces y las dos firmas verifican con la llave pública. La privada no salió del servicio.

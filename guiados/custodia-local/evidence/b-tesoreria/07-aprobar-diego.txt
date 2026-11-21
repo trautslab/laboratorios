@@ -1,0 +1,8 @@
+
+== Diego firma la propuesta ==
+Huella de la propuesta:   0xbe05b8ffb3b7…7c742c02
+Firma:                    0x862a2ae7e4b6…6372751b
+Aprobaciones válidas:     2 de 2 (Carla, Diego)
+Descartada:               Carla: ya había aprobado
+Descartada:               Mallory: no es aprobador o la propuesta cambió después de firmar
+¿Alcanza el quórum?:      sí

@@ -1,0 +1,7 @@
+Cuenta de prueba 0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+Saldo:  10000000000000000000000 wei = 10000 ETH
+Nonce:  0
+Código: 0x (0 bytes)
+
+✔ Tres datos por dirección. Esta tiene saldo, no envió nada y no tiene código.

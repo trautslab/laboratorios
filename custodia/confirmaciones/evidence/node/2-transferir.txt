@@ -1,0 +1,6 @@
+Transferencia: 0x7d4c13ed95c0cee830d7457ec5a5976db1fc301cfa7a23fef0039a7ccf6aea87
+Incluida en el bloque: 1
+Último bloque:         1
+Confirmaciones:        1 - 1 + 1 = 1
+
+✔ La transferencia está incluida: tiene 1 confirmación. Todavía no tiene ningún bloque encima.

@@ -1,0 +1,8 @@
+KMS en http://localhost:4566 (emulador local, credenciales ficticias)
+
+Pedido: una llave ECC_SECG_P256K1 con uso SIGN_VERIFY
+≈ Resultado: ya existía, se reutiliza
+≈ Identificador: e40209c3-2e79-4fc1-b7a1-14c7dea79003
+Alias: alias/ruta-kms-llave-y-direccion
+
+✔ La llave privada se generó dentro del servicio. Tu programa solo conoce su nombre.

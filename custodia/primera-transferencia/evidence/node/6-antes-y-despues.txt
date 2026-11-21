@@ -1,0 +1,14 @@
+El recibo dice: bloque 1
+
+Quien envía
+  antes (bloque 0):   10000 ETH
+  después (bloque 1): 9998.999958 ETH
+  salió:              1.000042 ETH
+Quien recibe
+  antes (bloque 0):   0 ETH
+  después (bloque 1): 1 ETH
+  entró:              1 ETH
+
+Comisión (salió y no llegó): 0.000042 ETH
+
+✔ La transferencia cambió el estado: 1 ETH cambió de cuenta y quien envía pagó la comisión.

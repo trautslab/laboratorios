@@ -1,0 +1,17 @@
+
+== Transferencias encontradas: 11 ==
+Bloque  De          A           Monto
+1       Grifo       Mezclador   20 ETH
+2       Grifo       Empresa     40 ETH
+3       Mezclador   Mula        12 ETH
+4       Empresa     Ana         8 ETH
+5       Empresa     Beto        9.5 ETH
+6       Mula        Beto        0.5 ETH
+7       Empresa     Dana        7 ETH
+8       Mula        Dana        3 ETH
+9       Empresa     Rita        2 ETH
+10      Mula        Rita        6 ETH
+11      Grifo       Custodio    10 ETH
+   Esta tabla no existe en el nodo: la armó el script leyendo bloque por bloque.
+
+✔ Índice guardado en .estado/transferencias.json.

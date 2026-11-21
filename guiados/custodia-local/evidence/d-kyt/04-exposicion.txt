@@ -1,0 +1,18 @@
+
+== Umbrales (kyt.json) ==
+Revisar desde:            10 %
+Bloquear desde:           50 %
+
+== Exposición por dirección ==
+Quién       Exposición   Distancia      Decisión
+Mezclador   100 %        listada        BLOQUEAR
+Mula        100 %        1 salto        BLOQUEAR
+Empresa     0 %          sin relación   PERMITIR
+Ana         0 %          sin relación   PERMITIR
+Beto        5 %          2 saltos       PERMITIR
+Dana        30 %         2 saltos       REVISAR
+Rita        75 %         2 saltos       BLOQUEAR
+   La Mula no está en ninguna lista y aun así sale con 100 %: todo lo suyo vino del Mezclador.
+   Beto recibió algo de la Mula, pero es el 5 % de lo suyo: queda bajo el umbral.
+
+✔ Cada dirección tiene ahora un número, y cada número una acción.

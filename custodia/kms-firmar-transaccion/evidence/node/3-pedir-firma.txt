@@ -1,0 +1,18 @@
+Lo que viaja a KMS:
+  KeyId:            alias/ruta-kms-firmar-transaccion
+  Message:          0x74de25ab3349d385592063a4e5c59ea12cd106dc98ef738dcc290e19b7326475 (32 bytes)
+  MessageType:      DIGEST
+  SigningAlgorithm: ECDSA_SHA_256
+
+Lo que devuelve KMS:
+≈ Llave que firmó: arn:aws:kms:us-east-1:000000000000:key/f58120ea-607e-471d-9e9c-27cad247bd50
+≈ Firma DER: 0x30450220706d9cc1905543a2572e26ab49f7c709df9c9765ebfc641b4c8c4ba46918ca77022100c47236605120e852effcbfd2cb7a48510fbe5ca281244274b6d9d2caa81f2a88
+≈ Largo de la firma: 71 bytes
+
+La firma por dentro: 30 largo, 02 largo r, 02 largo s
+≈ Entero r: 32 bytes
+≈ Entero s: 33 bytes, el primero es un 00 de relleno
+≈ r: 0x706d9cc1905543a2572e26ab49f7c709df9c9765ebfc641b4c8c4ba46918ca77
+≈ s: 0xc47236605120e852effcbfd2cb7a48510fbe5ca281244274b6d9d2caa81f2a88
+
+✔ KMS firmó 32 bytes sin ver la transacción y devolvió dos números, r y s. Todavía no es una firma que la cadena acepte.

@@ -1,0 +1,10 @@
+Quien despliega: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 (nonce 0)
+Dirección prevista: 0x8464135c8F25Da09e49BC8782676a84730C318bC
+
+Transacción: to = null · datos = 267 bytes
+Recibo: status 1 · bloque 1 · gas usado 104597
+Dirección del recibo: 0x8464135c8F25Da09e49BC8782676a84730C318bC
+¿Coincide con la prevista? sí
+Código guardado: 237 bytes
+
+✔ El contrato existe: una dirección nueva con código, creada por una transacción.

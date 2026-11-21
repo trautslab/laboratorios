@@ -1,0 +1,7 @@
+Mensaje:              «Recibí el pedido 42»
+Firma:                0x49a0332a5c97b6f6494789dde783fc5d99705c7804d52acffc07019b21f5e1b239f457444fa127b4f7462e85ce141ef5cfdeec9b1bd23a288dcffa3c639dd7de1b
+Dirección recuperada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Dirección esperada:   0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Coinciden:            sí
+
+✔ La firma es de quien tiene la llave de esa dirección. Para comprobarlo no hizo falta ningún secreto.

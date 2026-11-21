@@ -1,0 +1,20 @@
+{
+  "name": "trautslab-custodia-ruta",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorios cortos de la ruta «Custodia desde Node» (lab.trautslab.dev), en Node y en Rust. Todo local.",
+  "engines": { "node": ">=20.18.0" },
+  "dependencies": {
+    "@aws-sdk/client-kms": "3.1173.0",
+    "@noble/curves": "2.4.0",
+    "@noble/hashes": "2.4.0",
+    "@scure/bip32": "2.4.0",
+    "@scure/bip39": "2.4.0",
+    "solc": "0.8.39",
+    "viem": "2.58.2"
+  },
+  "devDependencies": {
+    "@foundry-rs/anvil": "1.7.1"
+  }
+}

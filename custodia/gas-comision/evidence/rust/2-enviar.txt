@@ -1,0 +1,10 @@
+Enviado: 1 ETH de la cuenta 0 a la cuenta 1
+Techo   (maxFeePerGas):         5 gwei
+Propina (maxPriorityFeePerGas): 2 gwei
+
+Incluida en el bloque: 1
+Base fee de ese bloque: 1 gwei
+Gas usado (gasUsed): 21000
+Precio efectivo (effectiveGasPrice): 3000000000 wei = 3 gwei
+
+✔ El recibo trae las dos cifras de la comisión: cuánto gas se usó y a qué precio.

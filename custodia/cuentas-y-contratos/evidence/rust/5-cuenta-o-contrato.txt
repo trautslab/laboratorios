@@ -1,0 +1,5 @@
+Cuenta de prueba 0 : cuenta, sin código
+Dirección inventada: cuenta, sin código
+Alcancía del paso 4: contrato, 63 bytes de código
+
+✔ Sin código, la mueve una llave (si alguien la tiene). Con código, manda el código.

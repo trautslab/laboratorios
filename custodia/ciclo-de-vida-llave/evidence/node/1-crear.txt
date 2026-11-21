@@ -1,0 +1,9 @@
+Llave creada · estado: Enabled
+≈ id de la llave: 8cb698da-7463-4b26-8eaf-86f908440bf5
+≈ dirección: 0x3b9C1941EA85B64A3E2D2efabA7766ca363B3B43
+alias/ruta-ciclo-de-vida-llave → esa llave
+Fondeo: 1 ETH de prueba a la dirección · recibo: status 1
+Pago de 0.1 ETH firmado con el alias · recibo: status 1
+Saldo de la dirección: 0.899958 ETH (1 − 0.1 − 0.000042 de comisión)
+
+✔ La llave firma: su dirección recibió fondos y pagó con una firma hecha dentro del KMS.

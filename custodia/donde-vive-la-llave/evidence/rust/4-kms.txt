@@ -1,0 +1,14 @@
+Lugar 4 · un KMS (emulador local en http://localhost:4566)
+  Alias:   alias/ruta-donde-vive-la-llave
+≈ Id de la llave: bfd03b06-0667-44ab-9ba0-8ac92b0c57eb (ya existía)
+  KeySpec: ECC_SECG_P256K1 · KeyUsage: SIGN_VERIFY · Origin: AWS_KMS
+
+Pedirle la llave al servicio
+  GetPublicKey: 88 bytes en formato DER, la mitad pública
+≈ Pública: 0x3056301006072a8648ce3d020106052b8104000a03420004b41016340a2a9c045064bcd8f04e8d09b259d56b40c0eb387e5fc2afe837a0716a1fbc1638946c1cb2957f2e88ae2a6da421c16f5e40c6b2b94e5c1d710bd76a
+  GetPrivateKey: HTTP 400 · UnsupportedOperation · Operation GetPrivateKey is not supported.
+
+Dónde está la llave
+  En tu disco: en ningún archivo.
+  En la memoria del programa: nunca. Tiene un alias y unas credenciales.
+✔ KMS: la llave se creó dentro del servicio. Tu programa guarda un permiso para usarla, no la llave.

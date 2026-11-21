@@ -1,0 +1,14 @@
+
+== Propuesta de recarga ==
+Motivo:                   La hot bajó del mínimo de 2 ETH.
+Desde:                    warm 0x1276478cb94eEeDD58d5D7a57761fbe9be217954
+Hacia:                    hot 0x69D1fB1fe467fe04928D381bA4F73B69B01B49D7
+Monto:                    4.000168 ETH (para volver al objetivo)
+Aprobaciones requeridas:  2 de 3 (Carla, Diego, Elena)
+
+== Intento de ejecutarla sin aprobaciones ==
+¿Se ejecutó?:             no · 0 de 2 aprobaciones
+Warm:                     5.999874 ETH (intacta)
+   Sacar de warm es mover hacia MENOS seguridad: ahí sí se exige a personas.
+
+✔ Propuesta guardada en .estado/propuesta.json, a la espera de aprobaciones.

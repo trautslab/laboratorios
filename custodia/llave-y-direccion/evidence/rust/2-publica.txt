@@ -1,0 +1,16 @@
+Llave privada (32 bytes): 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+Llave pública (65 bytes): prefijo 04, después x, después y
+  x: 0x8318535b54105d4a7aae60c08fc45f9687181b4fdfc625bd1a753fa7397fed75
+  y: 0x3547f11ca8696646f2f3acb08e31016afac23e630c5d11f59f61fef57b0d2aa5
+
+¿Es un punto de la curva y² = x³ + 7 (mod p)?
+  y² mod p:       0x87a9b6a922c626a993862db20a8fb19db220b773a8bf7a074146295025d5b471
+  x³ + 7 mod p:   0x87a9b6a922c626a993862db20a8fb19db220b773a8bf7a074146295025d5b471
+  Iguales: sí, es un punto de la curva.
+
+La x de la llave pública de tres llaves vecinas:
+  llave 1 → 0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798 (es G)
+  llave 2 → 0xc6047f9441ed7d6d3045406e95c07cd85c778e4b8cef3ca7abac09b95c709ee5
+  llave 3 → 0xf9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9
+
+✔ La llave pública son 64 bytes: las coordenadas x, y de un punto. Sale de la llave privada, y no al revés.

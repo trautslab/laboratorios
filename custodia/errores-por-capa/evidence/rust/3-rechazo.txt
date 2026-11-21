@@ -1,0 +1,9 @@
+Antes:   saldo 10000 ETH · nonce 0
+Intento: enviar 10000 ETH, todo el saldo. La comisión ya no cabe.
+El nodo respondió con un error:
+  code:    -32003
+  message: Insufficient funds for gas * price + value
+Hash:    ninguno
+Después: saldo 10000 ETH · nonce 0 · bloques nuevos 0
+
+✔ Rechazo antes del bloque: sin hash, sin recibo y sin costo. En la cadena no pasó nada.

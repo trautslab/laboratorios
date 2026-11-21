@@ -1,0 +1,7 @@
+Dirección inventada: 0x1234567890123456789012345678901234567890
+
+eth_getBalance          → {"jsonrpc":"2.0","id":1,"result":"0x0"}
+eth_getTransactionCount → {"jsonrpc":"2.0","id":1,"result":"0x0"}
+eth_getCode             → {"jsonrpc":"2.0","id":1,"result":"0x"}
+
+✔ Ningún error: saldo 0x0, nonce 0x0 y código 0x. Una dirección no se «crea» para existir.

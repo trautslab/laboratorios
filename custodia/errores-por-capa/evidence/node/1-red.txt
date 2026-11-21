@@ -1,0 +1,6 @@
+POST http://127.0.0.1:8545 · eth_chainId
+Respuesta HTTP: ninguna
+JSON del nodo:  ninguno (no hay code ni message)
+Motivo:         conexión rechazada, nadie escucha en ese puerto
+
+✔ Capa de red: la pregunta no llegó a ningún nodo. El fallo lo detectó tu propia máquina.

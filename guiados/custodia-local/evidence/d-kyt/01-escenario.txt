@@ -1,0 +1,19 @@
+
+== Historia de pagos (todo ficticio, en tu cadena local) ==
+Grifo → Mezclador:        20 ETH
+Grifo → Empresa:          40 ETH
+Mezclador → Mula:         12 ETH
+Empresa → Ana:            8 ETH
+Empresa → Beto:           9.5 ETH
+Mula → Beto:              0.5 ETH
+Empresa → Dana:           7 ETH
+Mula → Dana:              3 ETH
+Empresa → Rita:           2 ETH
+Mula → Rita:              6 ETH
+
+== Wallet del custodio ==
+Dirección:                0x009bB311CDca19179971a3e7d59281a4F1c6FBA0
+Saldo:                    10 ETH
+   Nadie en esta historia tiene «sucio» escrito en la frente: solo hay transferencias.
+
+✔ Escenario listo en el bloque 11.

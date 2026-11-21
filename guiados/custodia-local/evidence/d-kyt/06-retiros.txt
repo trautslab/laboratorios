@@ -1,0 +1,13 @@
+
+== Retiros de 0.5 ETH: revisión del destino ==
+Hacia Ana:                0 %, sin relación → PERMITIR · firmado y enviado, bloque 16
+Hacia Mezclador:          100 %, listada → BLOQUEAR · no se firma
+Hacia Mula:               100 %, 1 salto → BLOQUEAR · no se firma
+Hacia Dana:               30 %, 2 saltos → REVISAR · en espera de una persona
+
+== Resumen ==
+Firmas pedidas a KMS:     1
+En espera de revisión:    Dana
+   Una transacción enviada no se deshace. Por eso el destino se revisa antes de firmar.
+
+✔ De cuatro retiros se firmó uno. Los otros tres nunca llegaron al llavero.

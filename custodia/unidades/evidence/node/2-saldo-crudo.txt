@@ -1,0 +1,7 @@
+Método:      eth_getBalance
+Respuesta:   "0x21e19e0c9bab2400000"
+Como entero: 10000000000000000000000 wei (23 cifras)
+1 ETH:       1000000000000000000 wei (un 1 y 18 ceros)
+Para ver:    10000 ETH y sobran 0 wei
+
+✔ La cadena guarda un entero en wei. «10000 ETH» es ese entero dividido entre 10^18.

@@ -1,0 +1,7 @@
+Entrada:            "0.1" ETH y "0.2" ETH
+En enteros:         100000000000000000 + 200000000000000000 = 300000000000000000 wei
+En la transacción:  "0x429d069189e0000" = 300000000000000000 wei
+El destino recibió: 300000000000000000 wei
+Para mostrar:       0.3 ETH
+
+✔ 0.1 + 0.2 da 0.3 exacto: se sumó en wei y los decimales aparecieron al final.

@@ -1,0 +1,8 @@
+
+== Llavero local ==
+Servicio:                 Floci 2.5.0 (emula AWS)
+Dirección:                http://127.0.0.1:4566
+KMS:                      running
+Credenciales:             ficticias (test / test)
+
+✔ El llavero responde. No hay cuenta de nube de por medio.

@@ -1,0 +1,20 @@
+{
+  "name": "trautslab-custodia-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratorios de custodia en local: Anvil como cadena y Floci como KMS. Sin cuenta de nube y sin dinero real.",
+  "engines": { "node": ">=20.18.0" },
+  "scripts": {
+    "cadena": "anvil",
+    "llavero": "docker run -d --name floci -p 4566:4566 floci/floci:2.5.0",
+    "limpiar": "node limpiar.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-kms": "3.1173.0",
+    "viem": "2.58.2"
+  },
+  "devDependencies": {
+    "@foundry-rs/anvil": "1.7.1"
+  }
+}

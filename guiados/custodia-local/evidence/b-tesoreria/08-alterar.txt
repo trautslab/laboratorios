@@ -1,0 +1,13 @@
+
+== Propuesta original ==
+Monto:                    4.000168 ETH
+Huella:                   0xbe05b8ffb3b7…7c742c02
+Aprobaciones válidas:     2 de 2
+
+== La misma propuesta con el monto cambiado ==
+Monto:                    40 ETH
+Huella:                   0x3706c637f686…9445c484
+Aprobaciones válidas:     0 de 2
+   Las firmas son sobre la huella. Otro monto, otra huella: las firmas ya no corresponden.
+
+✔ Una aprobación vale solo para lo que la persona vio.

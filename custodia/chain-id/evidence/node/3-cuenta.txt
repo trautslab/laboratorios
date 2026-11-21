@@ -1,0 +1,6 @@
+Red:       chain id 1337
+Dirección: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Saldo:     10000 ETH
+Nonce:     0
+
+✔ La dirección sale de la llave. El chain id, el saldo y el nonce los responde cada red.

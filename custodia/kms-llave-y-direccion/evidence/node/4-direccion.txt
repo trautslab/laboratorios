@@ -1,0 +1,10 @@
+Entrada: X ‖ Y, 64 bytes (el punto sin el 04)
+≈ X ‖ Y: 0x548bc35f4b4e812cc09c1057fea6d55ff4fe487b8446299c1af1b7408cbe4b20a2d5a1c35aa0e8db069515d887a3c2780684b7472d19dbd05196c813be59f86c
+Keccak-256 de esos 64 bytes: 32 bytes
+≈ Hash: 0x780ed17193695f20cf14d34c7d1eba9ce159cb9ffd45d1960bbb945beabaa309
+La dirección son los últimos 20 bytes del hash
+≈ En minúsculas: 0x7d1eba9ce159cb9ffd45d1960bbb945beabaa309
+≈ Con mayúsculas de control (EIP-55): 0x7D1EBa9ce159cb9FfD45D1960bBB945bEABAA309
+La librería calcula la misma dirección: sí
+
+✔ La dirección se calcula: no hay que registrarla en ningún sitio ni ver la llave privada.

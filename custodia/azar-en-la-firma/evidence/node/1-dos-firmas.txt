@@ -1,0 +1,14 @@
+Mensaje 1: "retiro 1: 5 ETH a la cuenta A"
+  r = 0x54f971e6b51cf17f0daf2a0fd9bfcd0635b5609421b996fa2b4d443ff536eedb
+  s = 0x498a438ce874285dd74e28a6142fef550b199375a545f7db1f22e7a7e617cd3b
+Mensaje 2: "retiro 2: 7 ETH a la cuenta B"
+  r = 0x306ce698904d15fc7f5a8e11657785708c78c545777003fb8598879d5da1d8b9
+  s = 0x0dda6171b41774c2861926554b65749a95f7854e70cd01ac6d9a97cd3d87cdd0
+r distinto en las dos firmas: sí
+
+Mensaje 1, firmado otra vez
+  r = 0x54f971e6b51cf17f0daf2a0fd9bfcd0635b5609421b996fa2b4d443ff536eedb
+  s = 0x498a438ce874285dd74e28a6142fef550b199375a545f7db1f22e7a7e617cd3b
+Misma firma que la primera vez: sí
+
+✔ Mensajes distintos, r distintos. El mismo mensaje da la misma firma: la librería no usa azar, calcula el número secreto.

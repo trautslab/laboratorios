@@ -1,0 +1,8 @@
+Casilla 0 antes:   0x0000000000000000000000000000000000000000000000000000000000000000
+Datos enviados:    0xdf94c337 + 0000000000000000000000000000000000000000000000000000000000000005
+                   selector de sumar(uint256) + el 5 en 32 bytes
+Recibo: status 1 · bloque 2 · gas usado 43605
+Casilla 0 después: 0x0000000000000000000000000000000000000000000000000000000000000005
+valor() ahora:     5
+
+✔ Escribir cambia el estado del contrato: hace falta una transacción, un bloque y una comisión.

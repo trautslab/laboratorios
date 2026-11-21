@@ -1,0 +1,9 @@
+
+== Intentos de firmar con menos de dos partes ==
+Solo Carla:                 no hay firma · el protocolo responde «Missing message»
+Solo Diego:                 no hay firma · el protocolo responde «Missing message»
+Solo Elena:                 no hay firma · el protocolo responde «Missing message»
+   Aquí no hay contrato que rechace: sin la segunda parte, la firma no se puede calcular.
+   El control vive fuera de la cadena, en el protocolo y en quién guarda cada parte.
+
+✔ Una parte sola no produce nada utilizable.

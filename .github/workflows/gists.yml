@@ -1,0 +1,28 @@
+# Publica o actualiza un gist por laboratorio cuando cambia la ruta de custodia.
+# Necesita el secreto GIST_TOKEN (token de GitHub con permiso «gist»); sin él no hace nada.
+name: gists
+on:
+  push:
+    branches: [main]
+    paths: ['custodia/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .github/scripts/publicar-gists.mjs
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+      - name: Guardar los ids de los gists
+        run: |
+          if [ -n "$(git status --porcelain gists.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+            git add gists.json && git commit -m "gists: ids actualizados" && git push
+          fi

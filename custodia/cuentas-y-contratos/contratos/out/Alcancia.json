@@ -1,0 +1,17 @@
+{
+  "contrato": "Alcancia",
+  "solc": "0.8.39",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052603f8060116000396000f3fe6080604052600080fdfea264697066735822122032fbc89d102da506d8fc07aca56f4e99bda477a130ab03a1fc35c0a0f694202a64736f6c63430008270033"
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea264697066735822122032fbc89d102da506d8fc07aca56f4e99bda477a130ab03a1fc35c0a0f694202a64736f6c63430008270033"
+  }
+}

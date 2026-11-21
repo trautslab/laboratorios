@@ -1,0 +1,21 @@
+Puerto equivocado (8546)
+  llegó: nada
+  capa:  red → reintenta: más tarde o contra otro nodo
+
+Método que no existe
+  llegó: error -32601 "Method not found"
+  capa:  nodo → corrige la petición: repetirla igual falla igual
+
+Enviar todo el saldo
+  llegó: error -32003 "Insufficient funds for gas * price + value"
+  capa:  rechazo → corrige los datos: monto, saldo o comisión
+
+Simular retirar(500)
+  llegó: error 3 "execution reverted: Caja: el tope es 100"
+  capa:  ejecución → no la envíes: fallaría en el contrato y pagarías comisión
+
+Recibo de retirar(500), ya enviada
+  llegó: recibo con status "0x0"
+  capa:  ejecución → no la reenvíes igual: ya entró en un bloque y pagó comisión
+
+✔ La capa decide la reacción: reintentar, corregir la petición, corregir los datos o no reenviar.

@@ -1,0 +1,14 @@
+A mano, pasos 2 a 4:      0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+La librería, una llamada: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+¿Iguales? sí
+
+La cadena, por esa dirección: saldo 10000 ETH
+
+Una llave nueva, recién generada:
+≈ Llave nueva: 0x5aecb64c122e2774f4082d091ca50ff356d4f51a2df0c4243bc4c30eaf1410c9
+≈ Su dirección: 0x1e3A39CE18417dAfe7967f5230227cbbCe1877B3
+Saldo antes:   0 ETH (la cadena responde aunque nadie registró esa dirección)
+Le envío 1 ETH desde la cuenta de prueba.
+Saldo después: 1 ETH
+
+✔ De la llave a la dirección hay tres cálculos locales y ningún registro: la dirección nueva ya recibió.

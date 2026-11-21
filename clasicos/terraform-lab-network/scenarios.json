@@ -1,0 +1,28 @@
+{
+  "state": {
+    "remoteBackend": true,
+    "encrypted": true,
+    "versioned": true,
+    "locking": true,
+    "restoreRehearsed": true
+  },
+  "modules": {
+    "typedInputs": true,
+    "boundedOutputs": true,
+    "hiddenProviderConfiguration": false,
+    "fixtureTest": true
+  },
+  "policy": {
+    "planJsonReviewed": true,
+    "denyPublicIngress": true,
+    "maximumMonthlyEstimateUsd": 5,
+    "allowedResources": ["network", "subnet", "security-group"]
+  },
+  "recovery": {
+    "preserveStateCopy": true,
+    "identifyLockOwner": true,
+    "compareRemoteObjects": true,
+    "planAfterImport": true,
+    "blindForceUnlock": false
+  }
+}

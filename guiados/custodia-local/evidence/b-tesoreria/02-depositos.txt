@@ -1,0 +1,11 @@
+
+== En la cadena: cuánto hay en cada dirección de depósito ==
+Depósitos de Ana:         6 ETH
+Depósitos de Luis:        4 ETH
+
+== En el libro: cuánto le debe el custodio a cada cliente ==
+Ana:                      6 ETH
+Luis:                     4 ETH
+   Por ahora coinciden. Desde el próximo paso dejarán de coincidir, y está bien.
+
+✔ Dos depósitos confirmados y anotados.

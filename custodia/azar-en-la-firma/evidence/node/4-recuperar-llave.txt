@@ -1,0 +1,16 @@
+Dirección del firmante: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+r compartido: 0x4f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa
+
+Candidato con s2
+  k = 0x1111111111111111111111111111111111111111111111111111111111111111
+  d = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+  dirección de d: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (es la del firmante)
+
+Candidato con n − s2
+  k = 0x1b914791bb81ea5ef7b650ffd5bb94c94e0b619ce1a37fd76c829257f86e51be
+  d = 0xfb77033809120767b08265a339f97ed1b72bd51097b066edebfa386c56cb14db
+  dirección de d: 0x4223ca4d0a2A56b9Cab703e64503fc63e7317BC7 (no es la del firmante)
+
+Llave privada recuperada: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+✔ Dos firmas con el mismo r y dos divisiones bastan para tener la llave. No hizo falta acceder al firmante.

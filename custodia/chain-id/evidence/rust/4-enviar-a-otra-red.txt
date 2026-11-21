@@ -1,0 +1,13 @@
+Firmada para el chain id 31337:
+0x02f874827a6980843b9aca0084773594008252089470997970c51812dc3a010c7d01b50e0d17dc79c8880de0b6b3a764000080c080a074128fd7d42631897474d93692787a2e56b813754468caaca4993c641c986a37a06d5a3b027177cc2841199b70400fece0a29ac5eabee2fa9cbf9b6aa213716c48
+
+El nodo es la red:  chain id 1337
+Petición:           eth_sendRawTransaction con esos bytes
+Respuesta del nodo: error -32003 · invalid chain id for signer
+
+Después del intento:
+  Bloque:                 0
+  Nonce de quien firmó:   0
+  Saldo del destinatario: 10000 ETH
+
+✔ La red 1337 rechazó una firma hecha para la red 31337. No se movió nada.

@@ -1,0 +1,6 @@
+Transferencia: 0x7d4c13ed95c0cee830d7457ec5a5976db1fc301cfa7a23fef0039a7ccf6aea87
+Antes:   último bloque 4, confirmaciones: 4
+anvil_mine: pedí un bloque
+Después: último bloque 5, confirmaciones: 5
+
+✔ La transferencia sigue en el bloque 1. Lo que creció es la cadena encima de ella.

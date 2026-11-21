@@ -1,0 +1,11 @@
+El camino de una dirección, m/44'/60'/0'/0/3, tiene dos tipos de paso:
+  44'  60'  0'   con apóstrofo: la hija se calcula con la llave PRIVADA del padre
+  0    3         sin apóstrofo: la hija se calcula con la llave PÚBLICA del padre
+
+Llave pública extendida de m/44'/60'/0':
+  xpub6Ce9NcJvTk36xtLSrJLZqE7wtgA5deCeYs7rSQtreh4cj6ByPtrg9sD7V2FNFLPnf8heNP3FGkeV9qwfzvZNSd54JoNXVsXFYSYwHsnJxqP
+Lleva dos datos, ninguno secreto:
+  llave pública    0x0206b81bac860f5a7442a85664d339809955b3ac9a5782200095127ac78aab71f5
+  código de cadena 0x2258179af5cec58ce793fba06d3ef8ac640d481802e0ae39c9cc3fc5a8ce1812
+
+✔ Ese texto se puede copiar a otro sistema: no contiene la frase ni ninguna llave privada.

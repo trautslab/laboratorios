@@ -1,0 +1,4 @@
+
+== Ejecución de la recarga ==
+Aprobaciones válidas:     1 de 2 (Carla)
+¿Se ejecutó?:             no · falta quórum, la llave de warm no se usó

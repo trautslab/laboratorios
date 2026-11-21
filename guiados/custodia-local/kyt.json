@@ -1,0 +1,8 @@
+{
+  "revisarDesde": 0.1,
+  "bloquearDesde": 0.5,
+  "analistas": ["Paula"],
+  "listaDeVigilancia": [
+    { "nombre": "Mezclador", "motivo": "servicio de mezcla sancionado (ficticio)" }
+  ]
+}

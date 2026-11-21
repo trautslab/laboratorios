@@ -1,0 +1,8 @@
+{
+  "provider": "local-fixture",
+  "cidr": "10.44.0.0/24",
+  "resources": ["network", "subnet", "security-group"],
+  "publicIngress": [],
+  "maxMonthlyEstimateUsd": 5,
+  "teardown": ["terraform destroy -auto-approve", "remove local state fixture"]
+}

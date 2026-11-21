@@ -1,0 +1,17 @@
+Lugar 1 · un archivo en claro
+  Archivo:   donde-vive-la-llave/tmp/llave.txt (67 bytes, permisos 600)
+  Contenido: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
+
+Firmar con la llave del archivo
+  Hash:      0x7a37b0fbaf6d654e4c99182ebe032494cc1231cb15ec3c2b382f9335d088e77b
+  Dirección: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+  Firma:     0xc56c1da07c5745b5fd3ec859cd3a7638c34604dae3953607ba84fc04a2212a410a0de5cb4fff63250fcf4c68f77579bdd12e3db273722eceba6027344f137d2a1c
+
+Dónde está la llave
+  En el disco: en claro, antes y después de firmar.
+  En la memoria del programa: desde que lee el archivo.
+
+Quien lee el archivo obtiene la llave completa
+  Copia de respaldo: donde-vive-la-llave/tmp/respaldo/llave.txt
+  Firma hecha solo con la copia: idéntica a la de arriba
+✔ Archivo en claro: leerlo es tener la llave. La copia firma igual que el original.

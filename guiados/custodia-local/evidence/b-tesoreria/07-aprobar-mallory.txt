@@ -1,0 +1,8 @@
+
+== Mallory firma la propuesta ==
+Huella de la propuesta:   0xbe05b8ffb3b7…7c742c02
+Firma:                    0x8cdb45b59f50…0a30e81b
+Aprobaciones válidas:     1 de 2 (Carla)
+Descartada:               Carla: ya había aprobado
+Descartada:               Mallory: no es aprobador o la propuesta cambió después de firmar
+¿Alcanza el quórum?:      todavía no

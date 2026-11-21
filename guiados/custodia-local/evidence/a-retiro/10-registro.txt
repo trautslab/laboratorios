@@ -1,0 +1,10 @@
+
+== Registro de auditoría (.estado/registro.jsonl) ==
+#  Destino      Monto     Decisión  Regla                  Firmado  Resultado
+1  Ana          0.5 ETH   APROBAR   dentro-de-politica     sí       bloque 2, success
+2  Ana          5 ETH     RECHAZAR  limite-por-retiro      no       no llegó al llavero
+3  desconocido  0.5 ETH   RECHAZAR  destino-no-permitido   no       no llegó al llavero
+4  Ana          0.5 ETH   APROBAR   dentro-de-politica     no       KMS: DisabledException
+5  Luis         0.25 ETH  APROBAR   dentro-de-politica     sí       bloque 3, success
+
+✔ 5 solicitudes, 2 firmadas, 3 frenadas. Cada una con su motivo.
