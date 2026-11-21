@@ -1,0 +1,51 @@
+# Vuelve a ejecutar todos los laboratorios de la ruta de custodia en cada cambio, en Node y en Rust,
+# con Anvil y con el emulador de KMS (Floci). Falla si Node y Rust dejan de coincidir o si alguna
+# salida guardada cambia (salvo las líneas «≈», que llevan valores distintos en cada corrida).
+name: laboratorios
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1' # cada lunes: detecta si una dependencia nueva cambia algo
+jobs:
+  custodia:
+    runs-on: ubuntu-24.04
+    services:
+      floci:
+        image: floci/floci:2.5.0
+        ports: ['4566:4566']
+    defaults:
+      run:
+        working-directory: custodia
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: custodia/package-lock.json
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: custodia/rust
+      - run: npm ci && npm rebuild
+      - name: Esperar al emulador de KMS
+        run: for i in $(seq 1 30); do curl -sf -o /dev/null http://localhost:4566/ && exit 0; sleep 2; done; exit 1
+      - name: Ejecutar cada laboratorio en Node y en Rust
+        run: |
+          for lab in */capturar.sh; do
+            echo "::group::$(dirname "$lab")"
+            bash "$lab"
+            echo "::endgroup::"
+          done
+      - name: Comparar con las salidas guardadas
+        run: |
+          cambios=$(git diff -U0 -- '*/evidence/*' | grep -E '^[-+][^-+]' | grep -vE '^[-+]≈ ' || true)
+          if [ -n "$cambios" ]; then
+            echo "Estas salidas cambiaron respecto de las guardadas:"
+            echo "$cambios"
+            exit 1
+          fi
+          echo "Todas las salidas coinciden con las guardadas."

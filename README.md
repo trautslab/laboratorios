@@ -6,7 +6,6 @@ El código de los laboratorios de https://lab.trautslab.dev. La teoría está en
 
 - [`custodia/`](custodia/): **Custodia desde Node**, la ruta de laboratorios cortos. 19 publicados, en Node y en Rust.
 - [`guiados/`](guiados/): los laboratorios largos de custodia (mini custodio con KMS, tesorería hot y warm, KYT antes de firmar, multifirma y MPC).
-- [`clasicos/`](clasicos/): los primeros laboratorios de Ethereum y de consenso, con Foundry.
 
 ## Clonar todo
 
@@ -27,6 +26,12 @@ cd custodia && npm install
 ```
 
 El nombre de cada laboratorio está en [`custodia/README.md`](custodia/README.md). Para sumar otro más tarde: `git sparse-checkout add custodia/<otro>`.
+
+## Dónde se probó
+
+Cada salida guardada en `evidence/` se obtuvo ejecutando el laboratorio de verdad, en Node y en Rust, en un contenedor Linux (Ubuntu 24.04, x86_64), con una cadena local Anvil y, para los laboratorios de KMS, con el emulador Floci 2.5.0 en Docker y credenciales ficticias. No se probó en macOS ni en Windows, ni contra AWS real. Las versiones exactas están en la página de cada laboratorio.
+
+La Action `laboratorios` vuelve a ejecutar todo en cada cambio y cada lunes, y falla si una salida cambia o si Node y Rust dejan de coincidir.
 
 ## Requisitos
 
