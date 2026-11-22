@@ -1,0 +1,29 @@
+Hojas: 8 documentos → hoja = keccak256(huella del documento)
+  0  0xf0ebd8…8685  Certificado 0041 · Ana Rojas
+  1  0xa8143e…d81a  Certificado 0042 · Beto Díaz
+  2  0x7b90f6…b813  Certificado 0043 · Carla Soto
+  3  0x4d2192…52f5  Certificado 0044 · Diego Paz
+  4  0x32e025…354b  Certificado 0045 · Elena Ruiz
+  5  0xd7e693…397c  Certificado 0046 · Fabio Gil
+  6  0x4c9360…addd  Certificado 0047 · Gina Vega
+  7  0xa236e3…ae8a  Certificado 0048 · Hugo Lara
+Nivel 1: 0x5d4202…e918  0xa54456…6519  0x05c742…3b20  0x09450a…0036
+Nivel 2: 0x2e64d9…31b7  0xd46196…1044
+Raíz:    0x710c0310f64ac567fb899d01da2e47084874b281821edef84bd990a9bb61a403
+
+Prueba de pertenencia del documento 4 (Certificado 0045 · Elena Ruiz):
+  3 hashes hermanos (log2(8) = 3), 96 bytes:
+  1. 0xd7e693f5f82bbf70e013a97a075334f611a5e51492712071e732539ce68b397c
+  2. 0x09450aadc014e13545fe003bf9b867237223a734779c78fc18b1e5515a540036
+  3. 0x2e64d914e3e36e48aefcbe68252bc117149d8c1e934572a4ba13b42786e531b7
+Desde la hoja 0x32e025…354b, con los 3 hermanos se llega a 0x710c03…a403
+¿Es la raíz? sí: el documento está en el árbol
+Con un millón de documentos (2^20) la prueba tendría 20 hashes: 640 bytes.
+
+Se cambia el documento 1: «Certificado 0042 · Beto Díaz · nota 7.0 · aprobado»
+Raíz nueva: 0xe8e4e0fcafd53f92bbafea977c7ed6d83d5fbf04d65aa25b0c4d394a702c335e
+¿Cambió la raíz? sí
+La prueba vieja del documento 4 lleva a 0x710c03…a403, no a 0xe8e4e0…335e: ya no vale
+Prueba nueva del documento 4: 0xd7e693…397c  0x09450a…0036  0xf52a2e…5cc6
+
+✔ Una raíz de 32 bytes resume los 8 documentos; 3 hermanos prueban que uno está dentro.

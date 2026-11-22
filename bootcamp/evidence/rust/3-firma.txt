@@ -1,0 +1,26 @@
+≈ Una llave privada nueva, al azar: 0x95c840eede13ada371a98e9e7522a6635bc77b791eb2ab84a9a5cf0157074985
+Llave privada fija (32 bytes): 0x9db24b5a373d497d9f5ac62746e3b19d0cca8af007350a80512f9e5341a19127
+  ¿Está entre 1 y n - 1? sí  (n = 115792089237316195423570985008687907852837564279074904382605163141518161494337)
+
+Llave pública = privada × G, un punto (x, y) de secp256k1:
+  x: 0x30d4fdc11f80109ab7866aaf565a03705fafd521b885a925d87ef1a94d8cdeea
+  y: 0x9b37ea0f63077b4c64680b45841be34f7bbe59e74c0f424311ca349752aafbeb
+  comprimida (33 bytes): 0x0330d4fdc11f80109ab7866aaf565a03705fafd521b885a925d87ef1a94d8cdeea
+Dirección (últimos 20 bytes de keccak256(x ‖ y)): 0x0C25B07B1d3331f341A77013199B5849166b49C6
+
+Documento: «Certificado 0045 · Elena Ruiz · nota 6.9 · aprobado»
+Huella que se firma: 0x4f1f36475694ce438d862b1e0a1cbe6b145e5797d143ae8454a536d0c86a11ca
+  r: 0xfc962450a3eef2b04061725c64f2563b5a18beb5dfa61a4ed2b75ebed471e846
+  s: 0x350de46f41cfedf5731bebd919b408821574987c5bcadf3d0f376da1a1429af9
+  v: 27 (recovery 0: dice cuál de los puntos candidatos es la llave)
+
+Dirección recuperada de (huella, r, s, v): 0x0C25B07B1d3331f341A77013199B5849166b49C6
+¿Es la del firmante? sí
+Verificación con la llave pública: válida
+
+Mensaje alterado: «Certificado 0045 · Elena Ruiz · nota 7.9 · aprobado»
+Huella: 0x4c06d19419d48241edf65f5b8afa94f9375156e583ebb9b11a9ae5eeed321269
+Verificación de la misma firma: NO válida
+Dirección recuperada: 0xB637630fB7d0A07347dD8E3a866d0Ecb2e731943 (otra cuenta)
+
+✔ La llave privada firma la huella; con la firma cualquiera recupera la dirección y detecta un cambio.

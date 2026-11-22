@@ -1,0 +1,11 @@
+# Proyecto Foundry del laboratorio. OpenZeppelin viene de npm (../node_modules), no de `forge install`.
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+# Sin caché de compilación: el proyecto es pequeño y así no queda una carpeta cache/ junto al código.
+cache = false
+libs = ["../node_modules"]
+remappings = ["@openzeppelin/contracts/=../node_modules/@openzeppelin/contracts/"]
+# Versión fija del compilador: forge la descarga la primera vez si no la tiene en ~/.svm.
+solc_version = "0.8.28"

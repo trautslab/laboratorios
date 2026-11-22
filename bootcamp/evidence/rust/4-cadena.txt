@@ -1,0 +1,46 @@
+Validadores autorizados:
+  Validador A: 0xFd2778F624149B5413a629cB0fce843b0c8076e5
+  Validador B: 0xaf02B2d1216d7F534d80da200C73B96ec334c097
+Fuera de la lista:
+  Intruso:     0x97DFFbBD63df5878331fdba6170D1f0F0Cc37D20
+
+Bloque 0
+  anterior:  0x000000…0000
+  timestamp: 1767225600 (fijo, para que la salida se repita)
+  raíz tx:   0xe7127a…0197 (2 transacciones)
+  nonce:     0
+  cabecera:  88 bytes → hash 0x444936…cd4b, firmado por Validador A
+
+Bloque 1
+  anterior:  0x444936…cd4b
+  timestamp: 1767225612 (+12 s)
+  raíz tx:   0x23c504…2c11 (2 transacciones)
+  nonce:     0
+  cabecera:  88 bytes → hash 0xc8d9e9…d035, firmado por Validador B
+
+Bloque 2
+  anterior:  0xc8d9e9…d035
+  timestamp: 1767225624 (+12 s)
+  raíz tx:   0x021a22…fb45 (2 transacciones)
+  nonce:     0
+  cabecera:  88 bytes → hash 0x2032a5…42fc, firmado por Validador A
+
+Verificador, cadena tal como se produjo:
+  bloque 0: ok (firmó Validador A)
+  bloque 1: ok (firmó Validador B)
+  bloque 2: ok (firmó Validador A)
+  → cadena válida
+
+Bloque 1 mutado (una transacción cambiada y la raíz recalculada):
+  bloque 0: ok (firmó Validador A)
+  bloque 1: RECHAZADO: firmado por 0x8a67F264bc16F5ce46eb76329C0ccc11EEF01140, que no está en la lista
+  bloque 2: RECHAZADO: «anterior» dice 0xc8d9e9…d035, pero el bloque 1 hoy da 0x6fdae3…2b57
+  → cadena inválida
+
+Bloque 2 firmado por el intruso:
+  bloque 0: ok (firmó Validador A)
+  bloque 1: ok (firmó Validador B)
+  bloque 2: RECHAZADO: firmado por 0x97DFFbBD63df5878331fdba6170D1f0F0Cc37D20, que no está en la lista
+  → cadena inválida
+
+✔ El verificador acepta la cadena original y rechaza el bloque mutado y el del intruso.

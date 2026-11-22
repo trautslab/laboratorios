@@ -1,0 +1,22 @@
+Documento: «Certificado 0041 · Ana Rojas · nota 6.5 · aprobado» (53 bytes)
+  SHA-256:    0xcce3e5189d4fa2e7a93a4e4b12f98fa7aba46e9d6d1750b5a53f679d13f51332
+  Keccak-256: 0x71697e64a03278984da8c50a570123e40a4d654c33a9df58d41f12fff5b2ac93
+  SHA3-256:   0x9fb1c2c67eba2f47aeb47f271e38f29f832de1ff86a89d64c45c92cc29e03ce8
+  (Keccak-256 es la de Ethereum; SHA3-256 es el estándar del NIST: otro relleno, otra huella)
+
+Un documento de 1000000 bytes también da una huella de 32 bytes.
+
+Documento cambiado: «Certificado 0041 · Ana Rojas · nota 6.8 · aprobado»
+  SHA-256:    0x9e522254bc230ba1f544930fb617dc8d5d91297aaffa908ee81c75a3504be671
+  Keccak-256: 0x5a19c25c632ae3685889acf02f288850fd4b03675398b3c3a0c2471ca707b570
+
+Bits distintos entre los dos documentos: 3 de 424
+Bits distintos entre las dos huellas (de 256):
+  SHA-256:    130
+  Keccak-256: 127
+
+Índice con 8 documentos, buscados por su huella Keccak-256:
+  el original: encontrado
+  el cambiado: no está
+
+✔ Una huella de 32 bytes identifica al documento: un carácter distinto da otra huella.

@@ -1,0 +1,13 @@
+Compiling 4 files with Solc 0.8.28
+Solc 0.8.28 finished in …
+Compiler run successful!
+
+Ran 5 tests for test/Registro.t.sol:RegistroTest
+[PASS] test_GuardaQuienYEnQueBloque() (gas: 36765)
+[PASS] test_NoSeRegistraDosVeces() (gas: 37810)
+[PASS] test_RechazaUnaHojaAlterada() (gas: 35607)
+[PASS] test_RechazaUnaRaizNoRegistrada() (gas: 10332)
+[PASS] test_VerificaLaPruebaDelPaso2() (gas: 35616)
+Suite result: ok. 5 passed; 0 failed; 0 skipped; finished in … (… CPU time)
+
+Ran 1 test suite in … (… CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)

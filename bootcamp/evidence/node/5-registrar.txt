@@ -1,0 +1,14 @@
+Registro en 0x5FbDB2315678afecb367f032d93F642f64180aa3 (bloque 1: el despliegue de forge create)
+
+registrar(0x710c03…a403) desde la cuenta 1: status 1 · bloque 2 · gas usado 47115
+entradas(raíz): quien 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 · bloque 2
+Límite de gas del bloque 2 en esta Anvil: 30000000 → registrar usa el 0.157 %
+
+verificar(hoja del documento 4, prueba de 3 hashes, raíz):  true
+verificar(hoja alterada 6.9 → 7.9, misma prueba, raíz): false
+verificar(hoja 4, misma prueba, raíz 0xe8e4e0… no registrada): false
+Bloque después de verificar: 2 (leer no crea bloques)
+
+registrar la misma raíz otra vez: revierte con YaRegistrada(0x710c03…, 0x70997970C51812dc3A010C7d01b50e0d17dc79C8, 2)
+
+✔ La raíz quedó en la cadena con quién y en qué bloque; el contrato verifica la prueba del documento 4.

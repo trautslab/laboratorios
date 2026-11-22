@@ -49,3 +49,34 @@ jobs:
             exit 1
           fi
           echo "Todas las salidas coinciden con las guardadas."
+
+  bootcamp:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: bootcamp
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: bootcamp/package-lock.json
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: bootcamp/rust
+      - run: npm ci && npm rebuild
+      - name: Descargar solc 0.8.28 antes de capturar (forge lo baja la primera vez)
+        run: npx forge build --root contratos
+      - name: Ejecutar el laboratorio en Node y en Rust
+        run: bash capturar.sh
+      - name: Comparar con las salidas guardadas
+        run: |
+          cambios=$(git diff -U0 -- 'evidence/*' | grep -E '^[-+][^-+]' | grep -vE '^[-+]≈ ' || true)
+          if [ -n "$cambios" ]; then
+            echo "Estas salidas cambiaron respecto de las guardadas:"
+            echo "$cambios"
+            exit 1
+          fi
+          echo "Todas las salidas coinciden con las guardadas."

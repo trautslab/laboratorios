@@ -1,0 +1,3 @@
+Compiling 4 files with Solc 0.8.28
+Solc 0.8.28 finished in …
+Compiler run successful!

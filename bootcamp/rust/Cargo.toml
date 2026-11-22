@@ -1,0 +1,28 @@
+[package]
+name = "bootcamp"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Versión en Rust del laboratorio del bootcamp (lab.trautslab.dev): huella, Merkle, firma, cadena permisionada y registro."
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+# Mismas features de alloy que el crate de la ruta de custodia (custodia/rust):
+# así ambos comparten el directorio de compilación sin volver a compilar alloy.
+alloy = { version = "2.6.1", features = ["full", "provider-anvil-api", "signer-local", "signer-mnemonic", "signer-keystore", "signer-aws", "eip712"] }
+eyre = "0.6"
+hex = "0.4"
+k256 = { version = "0.13", features = ["ecdsa", "arithmetic", "pkcs8", "pem"] }
+rand_core = { version = "0.6", features = ["getrandom"] }
+sha2 = "0.10"
+sha3 = "0.10"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+
+# Un binario por paso y cada uno enlaza alloy entero: sin símbolos de depuración ocupan
+# una fracción del disco y enlazan más rápido.
+[profile.dev]
+debug = 0
+strip = "debuginfo"
+incremental = false
